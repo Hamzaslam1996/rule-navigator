@@ -1,1 +1,2514 @@
-{"sources":[]}
+{
+ "sources": [
+  {
+   "source_id": "D001",
+   "jurisdiction": "Berkeley, CA",
+   "title": "ORDINANCE NO. 7,992-N.S.",
+   "citation": "Berkeley Municipal Code § 13.63.030 (Ord. No. 7,992-N.S.)",
+   "url": "https://berkeleyca.gov/sites/default/files/documents/2025-12-02%20Item%2001%20Ordinance%207992.pdf",
+   "retrieved_at": "2026-10-01",
+   "sha256": "764e0430da30388ff875606eb2f551388fc85e214d549e305d7f502ff550803d",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0001"
+   ]
+  },
+  {
+   "source_id": "D002",
+   "jurisdiction": "Berkeley, CA",
+   "title": "Algorithmic Rent-Pricing Litigation Expands Under New State and Local Laws",
+   "citation": "Santa Ana Ordinance No. NS-3090",
+   "url": "https://morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws",
+   "retrieved_at": "2026-10-03",
+   "sha256": "8e5a01beed450544d00ea3b1b15f4393a1c2573a0d9cd82671dbdcac7901ba26",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0001",
+    "r-0023",
+    "r-0026",
+    "r-0054",
+    "r-0057",
+    "r-0062"
+   ]
+  },
+  {
+   "source_id": "D005",
+   "jurisdiction": "Berkeley, CA",
+   "title": "Tenant Screening and Application Fees | Berkeley Rent Board",
+   "citation": "BMC 13.78.010",
+   "url": "https://rentboard.berkeleyca.gov/laws-regulations/city-berkeley-ordinances-affecting-rental-properties/tenant-screening-and",
+   "retrieved_at": "2026-10-01",
+   "sha256": "b5efcc2d1bfb2fbc5609bd30f83d66bfdf5a45f44f690bea0f1d37130f14a18d",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0002",
+    "r-0003",
+    "r-0014"
+   ]
+  },
+  {
+   "source_id": "D092",
+   "jurisdiction": "Berkeley, CA",
+   "title": "13.78.010 Notification of state law limitation on tenant screening fees.",
+   "citation": null,
+   "url": "https://berkeley.municipal.codes/BMC/13.78.010",
+   "retrieved_at": "2026-10-03",
+   "sha256": "b7889febdad2caffa3c49f4544a93c70f514dd060ebbb54274b211b688d74701",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0002"
+   ]
+  },
+  {
+   "source_id": "D091",
+   "jurisdiction": "Berkeley, CA",
+   "title": "13.78.016 Prohibition of Non-refundable Application Fees Associated with Existing Tenancies.",
+   "citation": null,
+   "url": "https://berkeley.municipal.codes/BMC/13.78.016",
+   "retrieved_at": "2026-10-03",
+   "sha256": "528ec8c9f5b0a4952be7f5176efba1b3537227cdd11f9d6ccb18fbe227e4f5ed",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0003"
+   ]
+  },
+  {
+   "source_id": "D006",
+   "jurisdiction": "Berkeley, CA",
+   "title": "Measure BB Changes to Berkeley's Rent Ordinance | Berkeley Rent Board",
+   "citation": "Berkeley Municipal Code ch. 13.76 (Rent Stabilization and Eviction for Good Cause Ordinance), as amended by Measure BB (Nov. 2024)",
+   "url": "https://rentboard.berkeleyca.gov/laws-regulations/measure-bb-changes-berkeleys-rent-ordinance",
+   "retrieved_at": "2026-10-01",
+   "sha256": "db130d6eaf69a72123c1ef45989faf8b2b4748720425e0a2f4bf378df16ba195",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0004",
+    "r-0005"
+   ]
+  },
+  {
+   "source_id": "D009",
+   "jurisdiction": "Berkeley, CA",
+   "title": "2000 Center Street, Suite 400, Berkeley, CA 94704 · TEL: (510) 981-7368 (981-RENT) · TDD: (510) 981-6903",
+   "citation": "Berkeley Municipal Code ch. 13.76 (Rent Stabilization and Eviction for Good Cause Ordinance)",
+   "url": "https://rentboard.berkeleyca.gov/sites/default/files/documents/Rent%20Ordinance%20Coverage%20by%20Unit%20Type.pdf",
+   "retrieved_at": "2026-10-01",
+   "sha256": "e5c4623e6ef6f3e65baca5ce07a9d6397297cf9d252e50224ff0aca341fa840f",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0004",
+    "r-0005",
+    "r-0007"
+   ]
+  },
+  {
+   "source_id": "D004",
+   "jurisdiction": "Berkeley, CA",
+   "title": "2026 Adjustments of Relocation Assistance Payments | Berkeley Rent Board",
+   "citation": null,
+   "url": "https://rentboard.berkeleyca.gov/elected-rent-board/news/2026-adjustments-relocation-assistance-payments",
+   "retrieved_at": "2026-10-01",
+   "sha256": "60224fac40eb78746c3f7bb6ab05985daeb7a433d03132a7a088e56c7827e5a6",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0004"
+   ]
+  },
+  {
+   "source_id": "D008",
+   "jurisdiction": "Berkeley, CA",
+   "title": "2000 Center Street, Suite 400, Berkeley, CA 94704  TEL: (510) 981-7368 (981-RENT)  TDD: (510) 981-6903  FAX: (510) 80",
+   "citation": "Berkeley Municipal Code § 13.76.110(A); Berkeley Rent Stabilization Board Regulation 1148",
+   "url": "https://rentboard.berkeleyca.gov/sites/default/files/documents/AGA%20Public%20Notice.pdf",
+   "retrieved_at": "2026-10-01",
+   "sha256": "654b6ecd0f7b68896b5c6e9a3b1d9bf28189d3c4e92cad1562c4743c06c45b1a",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0005"
+   ]
+  },
+  {
+   "source_id": "M_BERK-RENT-01_AGA_page",
+   "jurisdiction": "Berkeley, CA",
+   "title": "The AGA for 2026 is 1.0%; takes effect January 1; 65% of CPI, capped at 5% (Measure BB)",
+   "citation": null,
+   "url": "https://rentboard.berkeleyca.gov/rights-responsibilities/annual-general-adjustment",
+   "retrieved_at": "2026-10-04",
+   "sha256": "cfdb09d9eda378c42cb5fbf2cbe9f0229416067b593b331961c35fb636e85230",
+   "evidence_basis": "manual_primary",
+   "capture_url": null,
+   "cited_by": [
+    "r-0005"
+   ]
+  },
+  {
+   "source_id": "D003",
+   "jurisdiction": "Berkeley, CA",
+   "title": "Ronald V. Dellums Fair Chance Access to Housing Ordinance | Berkeley Rent Board",
+   "citation": "Berkeley Municipal Code ch. 13.106",
+   "url": "https://rentboard.berkeleyca.gov/Fair_Chance",
+   "retrieved_at": "2026-10-01",
+   "sha256": "f24e09665a24fcf906ff6a75d46a7a72092ef978cfa2a1410dc8dfac48691074",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0006"
+   ]
+  },
+  {
+   "source_id": "D007",
+   "jurisdiction": "Berkeley, CA",
+   "title": "Security Deposits | Berkeley Rent Board",
+   "citation": null,
+   "url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
+   "retrieved_at": "2026-10-01",
+   "sha256": "d91318f17f00ac1906efb890b717cf2d73b7a34d5bd82f47c9e9a9ea3752404c",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0007",
+    "r-0019"
+   ]
+  },
+  {
+   "source_id": "D014",
+   "jurisdiction": "Boston, MA",
+   "title": "Housing Stability Notification Act",
+   "citation": "Boston Municipal Code § 10-11.7 (Housing Stability Notification Act)",
+   "url": "https://www.boston.gov/sites/default/files/file/2020/11/Housing%20Stability%20Notification%20Act%20Tenant%20FAQs.pdf",
+   "retrieved_at": "2026-10-01",
+   "sha256": "4976368fa1947fe1e993e2fb2f6b9d004e07398fe6fd009b0fcb9b8b862a8c94",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0008"
+   ]
+  },
+  {
+   "source_id": "D090",
+   "jurisdiction": "Boston, MA",
+   "title": "CITY OF BOSTON",
+   "citation": null,
+   "url": "https://www.boston.gov/sites/default/files/file/2021/03/Housing%20Stability%20Notification%20Act.pdf",
+   "retrieved_at": "2026-10-03",
+   "sha256": "ed2ae0e150db534df35c1933f07b406af7f4c4d8bf13d46a31aac4e92412d18c",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0008"
+   ]
+  },
+  {
+   "source_id": "D013",
+   "jurisdiction": "Boston, MA",
+   "title": "Housing Stability Notification Act | Boston.gov",
+   "citation": null,
+   "url": "https://www.boston.gov/housing-stability-notification-act",
+   "retrieved_at": "2026-10-01",
+   "sha256": "372ca0bcb1bd441d5a0b966989649674a20910bbdcae3defd99485c372421bd5",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0008"
+   ]
+  },
+  {
+   "source_id": "D011",
+   "jurisdiction": "Boston, MA",
+   "title": "Bill H.3744",
+   "citation": "Mass. H.3744 (193rd General Court, 2023-2024)",
+   "url": "https://malegislature.gov/Bills/193/H3744",
+   "retrieved_at": "2026-10-01",
+   "sha256": "1b2efd6622f0536e1100ef4a448593b214f4a76a47a0e1ecec93076e96927a20",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0009",
+    "r-0010"
+   ]
+  },
+  {
+   "source_id": "D010",
+   "jurisdiction": "Boston, MA",
+   "title": "Page 1 of 3 (February 2017)",
+   "citation": "Boston DND Fair Chance Tenant Selection Policy (Feb. 2017)",
+   "url": "https://drive.google.com/file/d/1j4U3fDtmnYuwcUWhx5BMUcXc1bnKT8Ku/view?usp=sharing",
+   "retrieved_at": "2026-10-01",
+   "sha256": "8d2640c97add084cc59ec2de89097fc2ec9f2fe42d39c8d6c52777aa3d1a4862",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0011"
+   ]
+  },
+  {
+   "source_id": "M_BOS-SCRN-02_boston_fair_chance_policy_2017",
+   "jurisdiction": "Boston, MA",
+   "title": "3-page policy; page footers read 'February 2017'",
+   "citation": null,
+   "url": "https://www.boston.gov/ (Boston Fair Chance Tenant Selection Policy, DND, Feb 2017)",
+   "retrieved_at": "2026-10-04",
+   "sha256": "70592a7c5274031b2d056b5825e6ad49becccadf60209f7358302ef087471740",
+   "evidence_basis": "manual_primary",
+   "capture_url": null,
+   "cited_by": [
+    "r-0011"
+   ]
+  },
+  {
+   "source_id": "D012",
+   "jurisdiction": "Boston, MA",
+   "title": "Boston Fair Housing Regulations | Boston.gov",
+   "citation": "Boston Fair Housing Commission regulations; see also M.G.L. c. 151B, § 4(10)",
+   "url": "https://www.boston.gov/departments/fair-housing-and-equity/boston-fair-housing-regulations",
+   "retrieved_at": "2026-10-01",
+   "sha256": "dfa99cae6edf7ab6365424961305a100c26d53385970ee5dc7efab20ef6497df",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0012"
+   ]
+  },
+  {
+   "source_id": "D022",
+   "jurisdiction": "CA",
+   "title": "Bill Text, AB-325 Cartwright Act: violations.",
+   "citation": "Cal. Bus. & Prof. Code § 16729",
+   "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB325",
+   "retrieved_at": "2026-10-01",
+   "sha256": "90e2901ce96a4d4b0e698c8a2954e3f2468c5b4e8e3f0a79fb8d7d4a9001fa51",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0013"
+   ]
+  },
+  {
+   "source_id": "D093",
+   "jurisdiction": "CA",
+   "title": "California Code, BPC 16729",
+   "citation": null,
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=16729",
+   "retrieved_at": "2026-10-03",
+   "sha256": "6f94c89b555e8db98b3886aa30f1c9edc3a374df67e662189754c4c55ae809ce",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0013"
+   ]
+  },
+  {
+   "source_id": "D028",
+   "jurisdiction": "CA",
+   "title": "California’s Antitrust Law Amendments Kick In, Targeting Algorithmic Pricing | Publications | Cleary Gottlieb",
+   "citation": null,
+   "url": "https://www.clearygottlieb.com/news-and-insights/publication-listing/californias-antitrust-law-amendments-kick-in-targeting-algorithmic-pricing",
+   "retrieved_at": "2026-10-03",
+   "sha256": "0291db4615cacfed4ae3eb830fd2b098eebcf61f7555e46912543aee6814cc25",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0013"
+   ]
+  },
+  {
+   "source_id": "M_CA-ALG-01_BPC_16729_justia",
+   "jurisdiction": "CA",
+   "title": "History note: Added by Stats. 2025, Ch. 338, Sec. 1. (AB 325) Effective January 1, 2026.",
+   "citation": null,
+   "url": "https://law.justia.com/codes/california/code-bpc/division-7/part-2/chapter-2/article-2/section-16729/ (mirror; official: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=16729)",
+   "retrieved_at": "2026-10-04",
+   "sha256": "3a3e9a76005ed7b4540e0d404a90cfdea0575aa161b58ad3b6e9bbacdd30f7e5",
+   "evidence_basis": "manual_primary",
+   "capture_url": null,
+   "cited_by": [
+    "r-0013"
+   ]
+  },
+  {
+   "source_id": "D026",
+   "jurisdiction": "CA",
+   "title": "California Code,  CIV 1950.6",
+   "citation": "Cal. Civ. Code § 1950.6",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.6",
+   "retrieved_at": "2026-10-01",
+   "sha256": "b749f447673b318960fed3651b887c31c8ca301905cf308c9936ca50fcc178c3",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0014"
+   ]
+  },
+  {
+   "source_id": "D017",
+   "jurisdiction": "CA",
+   "title": "California Civil Code section 1950.6 (2025)",
+   "citation": null,
+   "url": "https://california.public.law/codes/civil_code_section_1950.6",
+   "retrieved_at": "2026-10-03",
+   "sha256": "56005b270cb28a43093c2229ecd94b767319cbcc73644af29db57e1664419e17",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0014"
+   ]
+  },
+  {
+   "source_id": "D023",
+   "jurisdiction": "CA",
+   "title": "California Code,  CIV 1946.2",
+   "citation": "Cal. Civ. Code § 1946.2",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1946.2",
+   "retrieved_at": "2026-10-01",
+   "sha256": "823aa700801184618c5511ba5446ff5a2fc9c0687382c87ed41a65fc2fa0ca4b",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0015"
+   ]
+  },
+  {
+   "source_id": "D018",
+   "jurisdiction": "CA",
+   "title": "California Civil Code § 1946.2 (2025) :: 2025 California Code :: U.S. Codes and Statutes :: U.S. Law :: Justia",
+   "citation": null,
+   "url": "https://law.justia.com/codes/california/code-civ/division-3/part-4/title-5/chapter-2/section-1946-2/",
+   "retrieved_at": "2026-10-03",
+   "sha256": "5473c8cdb22905773822273ceb3d114127af09f9a02db7c3cd04348271c15a33",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0015"
+   ]
+  },
+  {
+   "source_id": "D024",
+   "jurisdiction": "CA",
+   "title": "California Code,  CIV 1947.12",
+   "citation": "Cal. Civ. Code § 1947.12",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1947.12",
+   "retrieved_at": "2026-10-01",
+   "sha256": "e6e520ca190db10aa69e655ede7e91c16622f5ef21eb58a3229487746ef313b1",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0016"
+   ]
+  },
+  {
+   "source_id": "D040",
+   "jurisdiction": "Los Angeles, CA",
+   "title": "Just Cause For Eviction Ordinance (JCO), LAHD",
+   "citation": "L.A. Mun. Code § 165.00 et seq. (Just Cause for Eviction Ordinance)",
+   "url": "https://housing.lacity.gov/residents/just-cause-for-eviction-ordinance-jco",
+   "retrieved_at": "2026-10-01",
+   "sha256": "6633b8bd769d3795ac08c7599324beb392631f044d3f3ad5c73248fbc09e48c7",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0016",
+    "r-0028"
+   ]
+  },
+  {
+   "source_id": "D019",
+   "jurisdiction": "CA",
+   "title": "California Civil Code § 1947.12 (2025) :: 2025 California Code :: U.S. Codes and Statutes :: U.S. Law :: Justia",
+   "citation": null,
+   "url": "https://law.justia.com/codes/california/code-civ/division-3/part-4/title-5/chapter-2/section-1947-12/",
+   "retrieved_at": "2026-10-03",
+   "sha256": "91fb00d3bc41a153bba9dacb86d85d0e29652044b9df49d7e1ea5cd07d6766a5",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0016"
+   ]
+  },
+  {
+   "source_id": "D015",
+   "jurisdiction": "CA",
+   "title": "Compliance reminder: Section 8 acceptance and criminal background checks are fair housing issues • California Apartment",
+   "citation": "Cal. Code Regs. tit. 2, § 12265 (Civil Rights Council regulations, eff. 2020-01-01)",
+   "url": "https://caanet.org/compliance-reminder-section-8-acceptance-and-criminal-background-checks-are-fair-housing-issues/",
+   "retrieved_at": "2026-10-03",
+   "sha256": "61d96c2041ab786a470c2248174678b8eedf52557bedfd6ea0840a064f408388",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0017",
+    "r-0018"
+   ]
+  },
+  {
+   "source_id": "D027",
+   "jurisdiction": "CA",
+   "title": "California Code,  GOV 12955",
+   "citation": "Cal. Gov. Code § 12955",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12955",
+   "retrieved_at": "2026-10-01",
+   "sha256": "0b7418e67532d04b912e6218e587650afd50ea695864ccb7425038c919c0aae3",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0018"
+   ]
+  },
+  {
+   "source_id": "D016",
+   "jurisdiction": "CA",
+   "title": "Housing | CRD",
+   "citation": null,
+   "url": "https://calcivilrights.ca.gov/housing/",
+   "retrieved_at": "2026-10-01",
+   "sha256": "620f35253fad41fd920fc8298db66045a73a5bb5df2b1d22d5efa13f75fa8c2c",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0018"
+   ]
+  },
+  {
+   "source_id": "D021",
+   "jurisdiction": "CA",
+   "title": "California Government Code § 12955 (2025) :: 2025 California Code :: U.S. Codes and Statutes :: U.S. Law :: Justia",
+   "citation": null,
+   "url": "https://law.justia.com/codes/california/code-gov/title-2/division-3/part-2-8/chapter-6/article-2/section-12955/",
+   "retrieved_at": "2026-10-03",
+   "sha256": "a177743fa80461b04668dc10cfe27130037955c2244cbaeb6ea8863d9ba29e91",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0018"
+   ]
+  },
+  {
+   "source_id": "M_CA-SCRN-01_Gov_12955_justia",
+   "jurisdiction": "CA",
+   "title": "History note: Amended by Stats. 2023, Ch. 776, Sec. 1. (SB 267) Effective January 1, 2024.",
+   "citation": null,
+   "url": "https://law.justia.com/codes/california/code-gov/title-2/division-3/part-2-8/chapter-6/article-2/section-12955/ (mirror; official corpus copy is D027)",
+   "retrieved_at": "2026-10-04",
+   "sha256": "b34423dccf0d999404a6ecc7b00415ec7b9c5d2a94b94d88116baff257f2bb81",
+   "evidence_basis": "manual_primary",
+   "capture_url": null,
+   "cited_by": [
+    "r-0018"
+   ]
+  },
+  {
+   "source_id": "D025",
+   "jurisdiction": "CA",
+   "title": "California Code,  CIV 1950.5",
+   "citation": "Cal. Civ. Code § 1950.5",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5",
+   "retrieved_at": "2026-10-01",
+   "sha256": "4fe1fd67bfbeefb49a91f6fa08ebf0cab004204289ed363aa0386be9ed775d08",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0019"
+   ]
+  },
+  {
+   "source_id": "D020",
+   "jurisdiction": "CA",
+   "title": "California Civil Code § 1950.5 (2025) :: 2025 California Code :: U.S. Codes and Statutes :: U.S. Law :: Justia",
+   "citation": null,
+   "url": "https://law.justia.com/codes/california/code-civ/division-3/part-4/title-5/chapter-2/section-1950-5/",
+   "retrieved_at": "2026-10-03",
+   "sha256": "254ebe62206548d783a7e514ce88000e0b7c9a045d0b6c82e3ed7b5e03894603",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0019"
+   ]
+  },
+  {
+   "source_id": "D030",
+   "jurisdiction": "Cambridge, MA",
+   "title": "City Council tries to ground AirBNB, rental algorithms, Cambridge Day",
+   "citation": "Cambridge City Council policy order (June 2026), directing city manager to draft ordinance language; no ordinance cited",
+   "url": "https://www.cambridgeday.com/?p=158097",
+   "retrieved_at": "2026-10-03",
+   "sha256": "b44e8d766c25e619f5a795ac851f1a3b3e42172a496ec0a29baa1908dfba7582",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0020",
+    "r-0033"
+   ]
+  },
+  {
+   "source_id": "D031",
+   "jurisdiction": "Cambridge, MA",
+   "title": "Tenants Rights and Resources Notification Ordinance Overview Information and FAQs, City of Cambridge, MA",
+   "citation": "Cambridge Municipal Code ch. 8.71",
+   "url": "https://www.cambridgema.gov/tenantrights",
+   "retrieved_at": "2026-10-01",
+   "sha256": "2a74f0750568bb7cc53620bc79c2e1df938c50f2a17eee4f0f2753b7fd0431d2",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0021"
+   ]
+  },
+  {
+   "source_id": "D029",
+   "jurisdiction": "Cambridge, MA",
+   "title": "Human Rights Commission",
+   "citation": "Cambridge Municipal Code ch. 14.04 (Fair Housing Ordinance)",
+   "url": "https://www.cambridgema.gov/departments/humanrightscommission",
+   "retrieved_at": "2026-10-01",
+   "sha256": "2bf1d0131839b6594bda907caee3d1166c1425712d159abc6817bfd9488cffde",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0022"
+   ]
+  },
+  {
+   "source_id": "M_HOB-ALG-01_Hoboken_ch158_ecode360",
+   "jurisdiction": "Hoboken, NJ",
+   "title": "Art. I adopted 4-2-2025 Ord. B-750; Art. II adopted 7-9-2025 Ord. B-781",
+   "citation": "Hoboken Code § 158-2 (Ord. No. B-781)",
+   "url": "https://ecode360.com/HO0741 (Hoboken Code ch. 158, PDF download dated 2026-10-03)",
+   "retrieved_at": "2026-10-04",
+   "sha256": "ebacdc6935d9471b8d3fe8d824694e679bc42128837ac3c39b4b8ac0ae7d551d",
+   "evidence_basis": "manual_primary",
+   "capture_url": null,
+   "cited_by": [
+    "r-0023",
+    "r-0024"
+   ]
+  },
+  {
+   "source_id": "D034",
+   "jurisdiction": "Hoboken, NJ",
+   "title": "Chapter 158: Rent Increases, City of Hoboken, NJ                                                         [Skip to conte",
+   "citation": "Hoboken City Code § 158-1 (Ord. No. B-750)",
+   "url": "https://ecode360.com/46833413",
+   "retrieved_at": "2026-10-03",
+   "sha256": "3d9c173abb28f7b300e4cba1293ad84139a7e979c5652926604ea55b8f1f857a",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0023",
+    "r-0024"
+   ]
+  },
+  {
+   "source_id": "D095",
+   "jurisdiction": "Hoboken, NJ",
+   "title": "City of Hoboken to introduce ordinance prohibiting algorithmic rent-fixing",
+   "citation": null,
+   "url": "https://www.hobokennj.gov/news/city-of-hoboken-to-introduce-ordinance-prohibiting-algorithmic-rent-fixing",
+   "retrieved_at": "2026-10-03",
+   "sha256": "72a27f90161f8bcf677ca98f42d6558e8db5c4e01c3765aeac82324c2d079a09",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0023"
+   ]
+  },
+  {
+   "source_id": "D032",
+   "jurisdiction": "Hoboken, NJ",
+   "title": "25 pp.; includes s 155-2 Limitation of applicability (exemptions incl. N.J.S.A. 2A:42-84.1 new-construction exemption for buildings constructed after 1987-06-25) and s 155-5 increase cap (lesser of 5% or CPI)",
+   "citation": "Hoboken Code § 155-5",
+   "url": "https://ecode360.com/15252438",
+   "retrieved_at": "2026-10-04",
+   "sha256": "ca225ac749bf3aa3ba514d3fbeaae8db70cb7a197fcac83bcde60c00c3a92df8",
+   "evidence_basis": "link_only_capture",
+   "capture_url": "https://ecode360.com/HO0741 (Hoboken Code ch. 155 Rent Control, PDF download dated 2026-10-03)",
+   "cited_by": [
+    "r-0025"
+   ]
+  },
+  {
+   "source_id": "D033",
+   "jurisdiction": "Hoboken, NJ",
+   "title": "Article II: General Regulations, City of Hoboken, NJ                                                         [Skip to c",
+   "citation": null,
+   "url": "https://ecode360.com/15252470",
+   "retrieved_at": "2026-10-03",
+   "sha256": "50561e42c95b12097fd8bfabdd59db9959b56a9fdd2b09e8c1ae5d38ef28b164",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0025"
+   ]
+  },
+  {
+   "source_id": "M_JC-ALG-01_Ord_25-057_adopted",
+   "jurisdiction": "Jersey City, NJ",
+   "title": "5 pp.; 1st reading 2025-05-07, final passage 2025-05-21, Mayor approved 2025-05-22",
+   "citation": "Jersey City Code § 218-12 (Ord. 25-057)",
+   "url": "https://cityofjerseycity.civicweb.net/ (Jersey City Ord. 25-057, adopted copy)",
+   "retrieved_at": "2026-10-04",
+   "sha256": "6169150336f165077cd7173c461540481fa3873cf28544361e649ee42fd8507d",
+   "evidence_basis": "manual_primary",
+   "capture_url": null,
+   "cited_by": [
+    "r-0026"
+   ]
+  },
+  {
+   "source_id": "D035",
+   "jurisdiction": "Jersey City, NJ",
+   "title": "Jersey City Council approves RealPage ban and increasing benefits for laborers",
+   "citation": null,
+   "url": "https://hudsoncountyview.com/jersey-city-council-approves-realpage-ban-and-increasing-benefits-for-laborers/",
+   "retrieved_at": "2026-10-03",
+   "sha256": "9acd4148aae618d5e1b07682cac215e62ff3264e895df2525d3b300eea69daf1",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0026"
+   ]
+  },
+  {
+   "source_id": "D036",
+   "jurisdiction": "Jersey City, NJ",
+   "title": "Landlord/ Tenant Relations, City of Jersey City",
+   "citation": "Jersey City Municipal Code ch. 260",
+   "url": "https://www.jerseycitynj.gov/landlordtenant",
+   "retrieved_at": "2026-10-01",
+   "sha256": "71c1daff7a30e80b513c3921d75750b8608da7a35fe1c764ecc1579deb1f505e",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0027"
+   ]
+  },
+  {
+   "source_id": "D043",
+   "jurisdiction": "Los Angeles, CA",
+   "title": "A. RELOCATION ASSISTANCE BULLETIN",
+   "citation": "L.A.M.C. §§ 151.09, 165.03, 165.06; L.A.M.C. §§ 47.06-47.07",
+   "url": "https://housing.lacity.gov/wp-content/uploads/2026/08/Relocation-Assistance-Bulletins-A-and-B-Combined.pdf",
+   "retrieved_at": "2026-10-01",
+   "sha256": "b7a8c88e14d50821a59abd88c5c457f101c26d337351da2c7134e1fc1830309b",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0029"
+   ]
+  },
+  {
+   "source_id": "D041",
+   "jurisdiction": "Los Angeles, CA",
+   "title": "RSO Overview, LAHD",
+   "citation": "L.A.M.C. ch. XV, art. 1, § 151.00 et seq. (Rent Stabilization Ordinance)",
+   "url": "https://housing.lacity.gov/residents/rso-overview",
+   "retrieved_at": "2026-10-01",
+   "sha256": "5d2e79094fcb8c09aa51120208725b130b1932bceb848b3641dd82f0a6b3656b",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0029",
+    "r-0030"
+   ]
+  },
+  {
+   "source_id": "M_LA-JUST-02_LAMC_ch15_art1_151",
+   "jurisdiction": "Los Angeles, CA",
+   "title": "Text saved from American Legal; includes s 151.09 and ordinance history notes",
+   "citation": "L.A.M.C. § 151.06.02 B",
+   "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-322208 (LAMC ch. XV art. 1, incl. s 151.09 Evictions)",
+   "retrieved_at": "2026-10-04",
+   "sha256": "0ab38e35c5d63b4de6c2d48d532c7edcf2916ae25d0713cfe5388fd801f8e21b",
+   "evidence_basis": "manual_primary",
+   "capture_url": null,
+   "cited_by": [
+    "r-0029",
+    "r-0030",
+    "r-0032",
+    "r-0032"
+   ]
+  },
+  {
+   "source_id": "D042",
+   "jurisdiction": "Los Angeles, CA",
+   "title": "﻿",
+   "citation": null,
+   "url": "https://housing.lacity.gov/rso-rent-increase-calculator",
+   "retrieved_at": "2026-10-01",
+   "sha256": "173b8fd5169b465fb8e634598a74881c1247f23df4a8c1f487cd53294b379995",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0030"
+   ]
+  },
+  {
+   "source_id": "D038",
+   "jurisdiction": "Los Angeles, CA",
+   "title": "SEC. 45.67. PROHIBITED ACTIVITIES.",
+   "citation": "L.A.M.C. § 45.67",
+   "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-322208",
+   "retrieved_at": "2026-10-03",
+   "sha256": "d65b49a9939c6d24e2925c589f56b6c1dc4dbbcd85d4e53e574e712c01930271",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0031"
+   ]
+  },
+  {
+   "source_id": "D044",
+   "jurisdiction": "Los Angeles, CA",
+   "title": "City of L.A.: Security Deposit Interest Requirement, Apartment Association of Greater Los Angeles               [Skip t",
+   "citation": null,
+   "url": "https://members.aagla.org/news/city-of-la-security-deposit-interest-requirement",
+   "retrieved_at": "2026-10-03",
+   "sha256": "b1bf41bb1f99cb553a5a4f56976c82569b357864cb7bcc5e5a64a7dd2362eddb",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0032"
+   ]
+  },
+  {
+   "source_id": "D045",
+   "jurisdiction": "MA",
+   "title": "Bill H.5222",
+   "citation": "H.5222, 194th Gen. Court (Mass. 2025-2026) (new draft of H.1564)",
+   "url": "https://malegislature.gov/Bills/194/H5222",
+   "retrieved_at": "2026-10-01",
+   "sha256": "cc3a2eee30cb567368f01c10da2da5c38703954d3640199539737980a4caf8ca",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0033"
+   ]
+  },
+  {
+   "source_id": "D046",
+   "jurisdiction": "MA",
+   "title": "Bill S.2983",
+   "citation": "Mass. S. 2983, 194th Gen. Ct. (2025-2026)",
+   "url": "https://malegislature.gov/Bills/194/S2983",
+   "retrieved_at": "2026-10-01",
+   "sha256": "d6ea7aaf0dd90e92cbb141ec127402e0db1e00fa3aa67d67a0f1264dd2b96827",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0034"
+   ]
+  },
+  {
+   "source_id": "D057",
+   "jurisdiction": "MA",
+   "title": "General Law, Part I, Title XVI, Chapter 112, Section 87DDD 1/2",
+   "citation": "M.G.L. c. 112, § 87DDD½, as amended by St. 2025, c. 9, § 43",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVI/Chapter112/Section87DDD%201~2",
+   "retrieved_at": "2026-10-01",
+   "sha256": "0109f5cb48ad7951f1b8d49df1b1e277f6dbd04d3140063cc6f1ed354e623b8f",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0035"
+   ]
+  },
+  {
+   "source_id": "M_MA-FEE-02_c112_87DDD-half_masslaw",
+   "jurisdiction": "MA",
+   "title": "Amended by St. 2025, c. 9, s. 43, effective August 1, 2025",
+   "citation": null,
+   "url": "https://www.mass.gov/info-details/mass-general-laws-c112-ss-87ddd-12 (Trial Court Law Libraries unofficial text)",
+   "retrieved_at": "2026-10-04",
+   "sha256": "3032c6aa27fb2f9829373754d24ef81f3f825c89d9ac223fd4fb7ba1c125c14b",
+   "evidence_basis": "manual_primary",
+   "capture_url": null,
+   "cited_by": [
+    "r-0035"
+   ]
+  },
+  {
+   "source_id": "D054",
+   "jurisdiction": "MA",
+   "title": "Can Massachusetts Landlords Charge an Application Fee?, MassLandlords.net",
+   "citation": "M.G.L. c. 186, § 15B; 254 C.M.R. 7",
+   "url": "https://masslandlords.net/can-massachusetts-landlords-charge-an-application-fee/",
+   "retrieved_at": "2026-10-03",
+   "sha256": "09b8e3e1b48ec31f98d75eedaeabcd10f75c514a8281c79221743427c803a5bf",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0036"
+   ]
+  },
+  {
+   "source_id": "M_MA-RENT-P1_Cella_v_AG_SJC-13893",
+   "jurisdiction": "MA",
+   "title": "Arcangelo Cella & others v. Attorney General & another, SJC-13893, argued 2026-05-06, decided 2026-06-23; Initiative Petition 25-21 barred from the November 2026 ballot (art. 48 religion exclusion)",
+   "citation": "Initiative Petition 25-21; Mass. Const. Amend. art. 48, The Initiative, II, § 2; Cella v. Attorney General, SJC-13893 (2026)",
+   "url": "https://www.mass.gov/doc/cella-v-attorney-general (SJC-13893 slip opinion)",
+   "retrieved_at": "2026-10-04",
+   "sha256": "7a437b2e8b963959e7211bc74913a64e7e4feac73913da06b13adc54eea31648",
+   "evidence_basis": "manual_primary",
+   "capture_url": null,
+   "cited_by": [
+    "r-0037",
+    "r-0039"
+   ]
+  },
+  {
+   "source_id": "D048",
+   "jurisdiction": "MA",
+   "title": "General Law, Part I, Title VII, Chapter 40P, Section 4",
+   "citation": "M.G.L. c. 40P, § 4",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter40P/Section4",
+   "retrieved_at": "2026-10-01",
+   "sha256": "713cae78081e4354df2926b45984dcacdb2299cf4edb8dcd7064d7da7fa3c06e",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0038",
+    "n-0027"
+   ]
+  },
+  {
+   "source_id": "D059",
+   "jurisdiction": "MA",
+   "title": "High court derails rent control ballot question, citing mention of religion | WBUR News",
+   "citation": "Mass. Const. amend. art. 48, The Initiative, Pt. II, § 2 (SJC ruling, June 2026)",
+   "url": "https://www.wbur.org/news/2026/06/23/massachusetts-high-court-rent-control-ballot-question-struck",
+   "retrieved_at": "2026-10-03",
+   "sha256": "42e87180a97d6503c76e65fdc79bfbe0356f1d4da83d8a4b92a10e06af82d612",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0040"
+   ]
+  },
+  {
+   "source_id": "D049",
+   "jurisdiction": "MA",
+   "title": "General Law, Part I, Title XXI, Chapter 151B, Section 4",
+   "citation": "M.G.L. c. 151B, § 4(10)",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXI/Chapter151B/Section4",
+   "retrieved_at": "2026-10-01",
+   "sha256": "7727efb19acd13f7b10f320df75ceca00526c8584cac1af80c6848cc86c7ae5c",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0041"
+   ]
+  },
+  {
+   "source_id": "D094",
+   "jurisdiction": "MA",
+   "title": "M.G.L. c.6 § 172, CORI access; § 172(a)(3)(ii) housing-applicant purpose and the 10-year felony / 5-year misdemeanor look-back; § 172(c) duty to give the applicant a copy before questioning / on adverse decision. Whole-page text (site navigation retained, as in D093/D095).",
+   "citation": "M.G.L. c. 6, § 172(a)(3), (c)",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleII/Chapter6/Section172",
+   "retrieved_at": "2026-10-03",
+   "sha256": "7c5841a5b215c1b780bf624380808fec482ed57b05265e7900c49425f9f04db8",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0042"
+   ]
+  },
+  {
+   "source_id": "M_MA-SCRN-02_803_CMR_5",
+   "jurisdiction": "MA",
+   "title": "803 CMR 5.00, pages dated 6/11/21",
+   "citation": null,
+   "url": "https://www.mass.gov/doc/803-cmr-5-criminal-offender-record-information-cori-housing/download",
+   "retrieved_at": "2026-10-04",
+   "sha256": "3a837e5d9f9be7917ce17b2b4917f4946296babf909bb598b46f7e196a575427",
+   "evidence_basis": "manual_primary",
+   "capture_url": null,
+   "cited_by": [
+    "r-0042"
+   ]
+  },
+  {
+   "source_id": "M_MA-SCRN-02_MGL_c6_s172_findlaw",
+   "jurisdiction": "MA",
+   "title": "FindLaw page 'Current as of January 01, 2025'",
+   "citation": null,
+   "url": "https://codes.findlaw.com/ma/part-i-administration-of-the-government-ch-1-182/ma-gen-laws-ch-6-sect-172/ (mirror of M.G.L. c.6 s.172; official: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleII/Chapter6/Section172)",
+   "retrieved_at": "2026-10-04",
+   "sha256": "1121f7ffc71b8d2c18fe4cb9a5a9c871f2922b4b34264770a3bc647ec233c8d8",
+   "evidence_basis": "manual_primary",
+   "capture_url": null,
+   "cited_by": [
+    "r-0042"
+   ]
+  },
+  {
+   "source_id": "D052",
+   "jurisdiction": "MA",
+   "title": "General Law, Part II, Title I, Chapter 186, Section 15B",
+   "citation": "M.G.L. c. 186, § 15B",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section15B",
+   "retrieved_at": "2026-10-01",
+   "sha256": "4052b3a94693be64fada21672df3f6f7368198b6b65a7686a8cc20e5f076d997",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0043"
+   ]
+  },
+  {
+   "source_id": "D069",
+   "jurisdiction": "NJ",
+   "title": "P.L. 2026, c.043 (A3497 1R ACS)",
+   "citation": "P.L. 2026, c.43 (C.56:9-20 to 56:9-26)",
+   "url": "https://pub.njleg.state.nj.us/Bills/2026/AL26/43_.HTM",
+   "retrieved_at": "2026-10-01",
+   "sha256": "eb4d4e4797616e5bc1d641db418d4e6cfc3064e1cef925725f83c77472a154f0",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0044"
+   ]
+  },
+  {
+   "source_id": "D060",
+   "jurisdiction": "NJ",
+   "title": "New Jersey Enacts FAIR Act to Prohibit Algorithmic Rent-Setting Practices | Day Pitney",
+   "citation": null,
+   "url": "https://daypitney.com/new-jersey-enacts-fair-act-to-prohibit-algorithmic-rent-setting-practices",
+   "retrieved_at": "2026-10-03",
+   "sha256": "3d843bc404d8cbe2d3dc5d460ab0e1984106dbf843194e5d61e21f6710859e8f",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0044"
+   ]
+  },
+  {
+   "source_id": "D066",
+   "jurisdiction": "NJ",
+   "title": "P.L. 2025, c.405 (A4899 4R)",
+   "citation": "N.J.S.A. 46:8-18.1; P.L. 2025, c.405",
+   "url": "https://pub.njleg.gov/bills/2024/PL25/405_.HTM",
+   "retrieved_at": "2026-10-01",
+   "sha256": "7de900de205fe25bcb0d2d5a4f4ea1037d784cf677a886f2f6c5ab4782667115",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0045"
+   ]
+  },
+  {
+   "source_id": "D067",
+   "jurisdiction": "NJ",
+   "title": "Department of Community Affairs • Division of Housing and Community Resources",
+   "citation": "N.J.S.A. 2A:18-61.1 et seq.; N.J.S.A. 2A:18-53",
+   "url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
+   "retrieved_at": "2026-10-01",
+   "sha256": "ba627933d9acecbc4333a21ecc14f35d893a811069c53b304240031a8a08009c",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0046",
+    "r-0046",
+    "r-0047",
+    "r-0048",
+    "r-0049",
+    "r-0051"
+   ]
+  },
+  {
+   "source_id": "D062",
+   "jurisdiction": "NJ",
+   "title": "New Jersey Revised Statutes Section 2A:18-61.1 (2025), Grounds for removal of tenants. :: 2025 New Jersey Revised Statu",
+   "citation": null,
+   "url": "https://law.justia.com/codes/new-jersey/title-2a/section-2a-18-61-1/",
+   "retrieved_at": "2026-10-03",
+   "sha256": "53639299f02e1f3795d3da8274fcdd0faffa1703ff0ad0c22e445cdb22aac497",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0046"
+   ]
+  },
+  {
+   "source_id": "D068",
+   "jurisdiction": "NJ",
+   "title": "The Department of Law & Public Safety, through",
+   "citation": "N.J.S.A. 10:5-12 (NJ Law Against Discrimination)",
+   "url": "https://www.nj.gov/oag/dcr/downloads/kyrhousing02.pdf",
+   "retrieved_at": "2026-10-01",
+   "sha256": "0262ee31d4e096b1e73056dff3f0511f7ef8da8a43f83d0e6eddc618c912909f",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0049"
+   ]
+  },
+  {
+   "source_id": "D061",
+   "jurisdiction": "NJ",
+   "title": "New Jersey Revised Statutes Section 10:5-12 (2025), Unlawful employment practices, discrimination. :: 2025 New Jersey R",
+   "citation": null,
+   "url": "https://law.justia.com/codes/new-jersey/title-10/section-10-5-12/",
+   "retrieved_at": "2026-10-03",
+   "sha256": "a05734880658d60d635793ea5c7459a8eb504a3b068b14882474c29836fd37f0",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0049"
+   ]
+  },
+  {
+   "source_id": "D065",
+   "jurisdiction": "NJ",
+   "title": "P.L. 2021, c.110 (S250 3R CC CC)",
+   "citation": "N.J.S.A. 46:8-52 et seq. (P.L. 2021, c.110)",
+   "url": "https://pub.njleg.gov/bills/2020/PL21/110_.HTM",
+   "retrieved_at": "2026-10-01",
+   "sha256": "2ebdb9726f7ae35a1fdecebbcf3d5aeecea142567039747009c568aa0c1408b4",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0050"
+   ]
+  },
+  {
+   "source_id": "D063",
+   "jurisdiction": "NJ",
+   "title": "New Jersey Revised Statutes Section 46:8-21.2 (2025), Limitation on amount of deposit :: 2025 New Jersey Revised Statut",
+   "citation": null,
+   "url": "https://law.justia.com/codes/new-jersey/title-46/section-46-8-21-2/",
+   "retrieved_at": "2026-10-03",
+   "sha256": "19f63827ca103655d6f6ce6e56b773c09ee926921d1365c485ef1bc877d7524a",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0051"
+   ]
+  },
+  {
+   "source_id": "D064",
+   "jurisdiction": "NJ",
+   "title": "New Jersey Revised Statutes Section 46:8-26 (2025), Application of act :: 2025 New Jersey Revised Statutes :: U.S. Code",
+   "citation": null,
+   "url": "https://law.justia.com/codes/new-jersey/title-46/section-46-8-26/",
+   "retrieved_at": "2026-10-03",
+   "sha256": "d082029dedf8470aef70d6c3ecb734c55fe18c5c2c0798bd40bbd85a189b9c2f",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0051"
+   ]
+  },
+  {
+   "source_id": "D070",
+   "jurisdiction": "Newark, NJ",
+   "title": "Chapter 19:2: Rent Control Regulations; Rent Control Board., City of Newark, NJ",
+   "citation": "Newark, N.J., Code § 19:2-3.1",
+   "url": "https://ecode360.com/36623772",
+   "retrieved_at": "2026-10-03",
+   "sha256": "6b8984450430289253e8d0b80fb6f1afb51ef31ab9060a30f216ab6afc36f6d9",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0052"
+   ]
+  },
+  {
+   "source_id": "D072",
+   "jurisdiction": "Newark, NJ",
+   "title": "Chapter 2:31: Assistance for the Successful Reintegration of Formerly Incarcerated People Into the Community (\"BAN the B",
+   "citation": "Newark Municipal Code § 2:31-1 to 2:31-9 (Ord. 6 PSF-B, 4-15-2015)",
+   "url": "https://ecode360.com/36642000",
+   "retrieved_at": "2026-10-03",
+   "sha256": "2571687f1aff4ac0bd739ee0f552b66282033c6cacca4e2c6eb4138246b5632a",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0053"
+   ]
+  },
+  {
+   "source_id": "D076",
+   "jurisdiction": "San Diego, CA",
+   "title": "The City of San Diego",
+   "citation": "San Diego Municipal Code § 98.1103 (Ord. O-21955 N.S.)",
+   "url": "https://sandiego.gov/sites/default/files/2025-04/automated-rent-price-fixing-prohibition-ordinance-materials.pdf",
+   "retrieved_at": "2026-10-01",
+   "sha256": "199151161d82324eee612bc44556f1a727e26a0efa0c4a6ad61a0ee5772bb244",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0054",
+    "r-0054"
+   ]
+  },
+  {
+   "source_id": "D074",
+   "jurisdiction": "San Diego, CA",
+   "title": "trimmed by team to Division 11 (§§98.1101-98.1104); full page was 8.4 MB of unrelated code.",
+   "citation": null,
+   "url": "https://gocodebook.com/library/us/ca/san-diego-zoning/division-11-prohibition-of-anti-competitive-automated-rent-price-fixing/98.1103-use-and-sale-of-algorithmic-devices-prohibited",
+   "retrieved_at": "2026-10-03",
+   "sha256": "969dd0f0db3c85d8f56d8edddd96ceec9c2d2bbe05253ff1c2e69770426d2c77",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0054"
+   ]
+  },
+  {
+   "source_id": "D073",
+   "jurisdiction": "San Diego, CA",
+   "title": "Ch. Art. Div.",
+   "citation": "San Diego Municipal Code §§ 98.0701-98.0710",
+   "url": "https://docs.sandiego.gov/municode/municodechapter09/ch09art08division07.pdf",
+   "retrieved_at": "2026-10-01",
+   "sha256": "9b30d1ef437a88840dcc15bfab72dee1952e183e9b7584786224c98214cf4905",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0055"
+   ]
+  },
+  {
+   "source_id": "D077",
+   "jurisdiction": "San Diego, CA",
+   "title": "City of San Diego Tenant Protection Ordinance, Legal Aid Society of San Diego",
+   "citation": null,
+   "url": "https://www.lassd.org/resource/city-of-san-diego-tenant-protection-ordinance/",
+   "retrieved_at": "2026-10-03",
+   "sha256": "bdd91fdc78f6dc27d4b7ea01c744e9ecaec8dd7284d8b5432d1004c6d3a05813",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0055"
+   ]
+  },
+  {
+   "source_id": "D075",
+   "jurisdiction": "San Diego, CA",
+   "title": "recaptured from the official San Diego Municipal Code PDF; manifest page (GoCodebook) was a table of contents",
+   "citation": "San Diego Municipal Code §§ 98.0801-98.0806 (Ord. O-20986 N.S.)",
+   "url": "https://gocodebook.com/library/us/ca/san-diego-zoning/division-8-prohibition-of-discrimination-based-on-a-tenant-s-source-of-income",
+   "retrieved_at": "2026-10-03",
+   "sha256": "2413fbe2f6d3efc0b642dac13d55094e204ff7c5c3d4af6de3c74f4f23ce9ebd",
+   "evidence_basis": "link_only_capture",
+   "capture_url": "https://docs.sandiego.gov/municode/municodechapter09/ch09art08division08.pdf",
+   "cited_by": [
+    "r-0056"
+   ]
+  },
+  {
+   "source_id": "D081",
+   "jurisdiction": "San Francisco, CA",
+   "title": "New law prohibits algorithmic devices used to set rents in San Francisco | SF.gov",
+   "citation": "S.F. Admin. Code § 37.10C",
+   "url": "https://www.sf.gov/news/new-law-prohibits-algorithmic-devices-used-set-rents-san-francisco",
+   "retrieved_at": "2026-10-01",
+   "sha256": "c77c6ddad9b2a6c7dda9a5f0c37660eac4c2e4765f677e81dccd517555aad7c1",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0057"
+   ]
+  },
+  {
+   "source_id": "D079",
+   "jurisdiction": "San Francisco, CA",
+   "title": "Overview of Just Cause Evictions | SF.gov",
+   "citation": "S.F. Admin. Code § 37.9(a)",
+   "url": "https://sf.gov/information/overview-just-cause-evictions",
+   "retrieved_at": "2026-10-01",
+   "sha256": "adeded646ba7b0ca6d9daceca173f072948928df492872febafafd487e4d04d1",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0058"
+   ]
+  },
+  {
+   "source_id": "D082",
+   "jurisdiction": "San Francisco, CA",
+   "title": "Archive of Relocation Rates | SF.gov",
+   "citation": null,
+   "url": "https://www.sf.gov/reports--archive-relocation-rates",
+   "retrieved_at": "2026-10-01",
+   "sha256": "85ca3517f80d9430b1a04b2a635bbabe3acd99c3dbdc245c3c463d12c5a87c41",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0058"
+   ]
+  },
+  {
+   "source_id": "D083",
+   "jurisdiction": "San Francisco, CA",
+   "title": "Current Rates, including Rent Increase, Relocation, Sec. Deposit | SF.gov",
+   "citation": "S.F. Admin. Code § 49.2",
+   "url": "https://www.sf.gov/reports--current-rates-including-rent-increase-relocation-sec-deposit",
+   "retrieved_at": "2026-10-01",
+   "sha256": "ad666827b1e294e0f4bd9cad28741b664a3ab043fc7c7f28ece726215f3a8756",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0058",
+    "r-0059",
+    "r-0061"
+   ]
+  },
+  {
+   "source_id": "D080",
+   "jurisdiction": "San Francisco, CA",
+   "title": "Annual Rent Increase for 3/1/26, 2/28/27 Announced | SF.gov",
+   "citation": "S.F. Admin. Code ch. 37 (Rent Ordinance), § 37.3",
+   "url": "https://www.sf.gov/news--annual-rent-increase-3126-22827-announced",
+   "retrieved_at": "2026-10-01",
+   "sha256": "e864d1c6a213ef38e925160f5c3c3532bf59230be3f13b51e43d7ba12d688cae",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0059"
+   ]
+  },
+  {
+   "source_id": "D078",
+   "jurisdiction": "San Francisco, CA",
+   "title": "Human Rights Commission | SF.gov",
+   "citation": "S.F. Police Code art. 49 (Fair Chance Ordinance)",
+   "url": "https://sf-hrc.org/fair-chance-ordinance",
+   "retrieved_at": "2026-10-01",
+   "sha256": "8388f4067a3218ee3b20e2c706f56aea9da75d45525f6920451984207e8ef8b1",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0060"
+   ]
+  },
+  {
+   "source_id": "D086",
+   "jurisdiction": "Santa Ana, CA",
+   "title": "Santa Ana Bans Landlords From Using AI Apartment Rent Pricing Software, Orange County Business Journal",
+   "citation": null,
+   "url": "https://www.ocbj.com/real-estate/santa-ana-bans-landlords-from-using-ai-apartment-rent-pricing-software/",
+   "retrieved_at": "2026-10-03",
+   "sha256": "f5a8b050fc0e820b97463b9ca3868cf290c9d639ed50035ae3f0e2dce3ce4952",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0062"
+   ]
+  },
+  {
+   "source_id": "D087",
+   "jurisdiction": "Santa Ana, CA",
+   "title": "Santa Ana City Council continues to strengthen tenant protections by banning anticompetitive rent-setting software, Pub",
+   "citation": null,
+   "url": "https://www.publicceo.com/2026/02/santa-ana-city-council-continues-to-strengthen-tenant-protections-by-banning-anticompetitive-rent-setting-software/",
+   "retrieved_at": "2026-10-03",
+   "sha256": "e3ae2c9a0005bf0827d1ff799582a4a93648c30e76a9c1bfca2be5b514f43482",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0062"
+   ]
+  },
+  {
+   "source_id": "D089",
+   "jurisdiction": "Santa Ana, CA",
+   "title": "Rent Stabilization Newsletter: March 2026, City of Santa Ana",
+   "citation": null,
+   "url": "https://santa-ana.gov/rent-stabilization-newsletter-march-2026/",
+   "retrieved_at": "2026-10-03",
+   "sha256": "64729d4913bbfb86560f61f8d57f3b4451c87472e03abce75a3f11fc51e7bda8",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0062"
+   ]
+  },
+  {
+   "source_id": "D088",
+   "jurisdiction": "Santa Ana, CA",
+   "title": "Santa Ana City Council continues to strengthen tenant protections by banning anticompetitive rent-setting software, Cit",
+   "citation": null,
+   "url": "https://santa-ana.gov/santa-ana-city-council-continues-to-strengthen-tenant-protections-by-banning-anticompetitive-rent-setting-software/",
+   "retrieved_at": "2026-10-03",
+   "sha256": "31ffa1ddc25e0e5774bcf576273c69b65e759279af517faae159d9017d4f5316",
+   "evidence_basis": "link_only_capture",
+   "capture_url": null,
+   "cited_by": [
+    "r-0062"
+   ]
+  },
+  {
+   "source_id": "D085",
+   "jurisdiction": "Santa Ana, CA",
+   "title": "Santa Ana City Council adopts rent stabilization and just cause eviction ordinances, effective Nov. 19, City of Santa A",
+   "citation": "Santa Ana Municipal Code, Just Cause Eviction Ordinance (section number not stated in source)",
+   "url": "https://santa-ana.gov/santa-ana-city-council-adopts-rent-stabilization-and-just-cause-eviction-ordinances-effective-nov-19",
+   "retrieved_at": "2026-10-01",
+   "sha256": "5753c1b4a0d6f81beb0c19413435719acf633697dd6922627633e42104e97a89",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0063",
+    "r-0064"
+   ]
+  },
+  {
+   "source_id": "D084",
+   "jurisdiction": "Santa Ana, CA",
+   "title": "Rent Stabilization and Just Cause Eviction, City of Santa Ana",
+   "citation": null,
+   "url": "https://santa-ana.gov/departments/rent-stabilization",
+   "retrieved_at": "2026-10-01",
+   "sha256": "8e7e3eca334bc0206189904518c82d88732b3406289868dc833d69970c9ded7b",
+   "evidence_basis": "supplied_corpus",
+   "capture_url": null,
+   "cited_by": [
+    "r-0063",
+    "r-0064"
+   ]
+  },
+  {
+   "source_id": "S-CA-01",
+   "jurisdiction": "CA",
+   "title": "Cal. Civ. Code § 1947.12 (leginfo)",
+   "citation": "Cal. Civ. Code § 1947.12",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1947.12",
+   "retrieved_at": "2026-10-01T22:35Z",
+   "sha256": "eb9c42af2b9a5c220ca37816f409f0bd3ea92a002a973283e779fdb72de18bd7",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-CA-02",
+   "jurisdiction": "CA",
+   "title": "Cal. Civ. Code § 1946.2 (leginfo)",
+   "citation": "Cal. Civ. Code § 1946.2",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1946.2",
+   "retrieved_at": "2026-10-01T22:35Z",
+   "sha256": "fdd8d7fca42103cf630c3a9a4ed217150eb17a6e180edd80c1d845ca5e8aa1fe",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-CA-03",
+   "jurisdiction": "CA",
+   "title": "Cal. Civ. Code § 1950.5 (leginfo)",
+   "citation": "Cal. Civ. Code § 1950.5",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5",
+   "retrieved_at": "2026-10-01T22:35Z",
+   "sha256": "48b1d005fb59f73082dc625d4038272f4bde950d2c93a70ef400a43b630e1511",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-CA-04",
+   "jurisdiction": "CA",
+   "title": "Cal. Civ. Code § 1950.6 (leginfo)",
+   "citation": "Cal. Civ. Code § 1950.6",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.6",
+   "retrieved_at": "2026-10-01T22:35Z",
+   "sha256": "35ec54ef926471876977b9cad3f0db7ff5b77393bd0baad03ed30125949f8e7a",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-CA-05",
+   "jurisdiction": "CA",
+   "title": "Cal. Gov. Code § 12955 (leginfo)",
+   "citation": "Cal. Gov. Code § 12955",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=12955",
+   "retrieved_at": "2026-10-01T22:35Z",
+   "sha256": "511f8074b8f4959161fb4c7ec922c8fa963735b47c13d852b8a09ca42b922ecf",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-CA-06",
+   "jurisdiction": "CA",
+   "title": "CRD, Housing (fair housing FAQ)",
+   "citation": "Cal. Gov. Code § 12955 (agency guidance)",
+   "url": "https://calcivilrights.ca.gov/housing/",
+   "retrieved_at": "2026-10-01T22:35Z",
+   "sha256": "21d92128daede668d6f1a824528ead345982ddf043a32e4fb5d80dd8adbcdce9",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-CA-07",
+   "jurisdiction": "CA",
+   "title": "AB 325 (2025-2026) chaptered text, Ch. 338",
+   "citation": "Cal. Bus. & Prof. Code § 16729",
+   "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB325",
+   "retrieved_at": "2026-10-01T22:35Z",
+   "sha256": "0699980875e6bf3d797abd8b734db7d449b295173e33668cc655e3b394c084ed",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-CA-08",
+   "jurisdiction": "CA",
+   "title": "Cleary Gottlieb alert: California antitrust amendments (AB 325 / SB 763) effective 2026-01-01",
+   "citation": "Cal. Bus. & Prof. Code §§ 16729, 16755.1",
+   "url": "https://www.clearygottlieb.com/news-and-insights/publication-listing/californias-antitrust-law-amendments-kick-in-targeting-algorithmic-pricing",
+   "retrieved_at": "2026-10-03T18:50Z",
+   "sha256": "abcfc28267e40d52aac628355120227dcd9d7c70f86275d14b8702535e001f05",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-NJ-02",
+   "jurisdiction": "NJ",
+   "title": "N.J.S.A. 2A:18-61.1 (Justia mirror, 2025)",
+   "citation": "N.J.S.A. 2A:18-61.1",
+   "url": "https://law.justia.com/codes/new-jersey/title-2a/section-2a-18-61-1/",
+   "retrieved_at": "2026-10-03T18:52Z",
+   "sha256": "8b69c5915decda37e35fc2af12c145cc481a0fbfd86356819a6c4e8d1f91816b",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-NJ-03",
+   "jurisdiction": "NJ",
+   "title": "N.J.S.A. 46:8-21.2 (Justia mirror, 2025)",
+   "citation": "N.J.S.A. 46:8-21.2",
+   "url": "https://law.justia.com/codes/new-jersey/title-46/section-46-8-21-2/",
+   "retrieved_at": "2026-10-03T18:49Z",
+   "sha256": "0ea3b901ecec65af31f385404cfe158378ce25a98ed854a8a296fe95bf821579",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-NJ-04",
+   "jurisdiction": "NJ",
+   "title": "N.J.S.A. 46:8-26 (Justia mirror, 2025)",
+   "citation": "N.J.S.A. 46:8-26",
+   "url": "https://law.justia.com/codes/new-jersey/title-46/section-46-8-26/",
+   "retrieved_at": "2026-10-03T18:52Z",
+   "sha256": "b03ef6e5cffc6bcc92ef77e5bce13ac633bbf6aee10ba2150de360ffc6a2d2ef",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-NJ-05",
+   "jurisdiction": "NJ",
+   "title": "NJ DCA Truth in Renting guide",
+   "citation": "N.J.S.A. 2A:18-61.1 et seq. (agency guide)",
+   "url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
+   "retrieved_at": "2026-10-01T22:37Z",
+   "sha256": "a61f61a51b513b48a41cce48326e28861838a95e5e5a29cdedc41470d44ed505",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-NJ-06",
+   "jurisdiction": "NJ",
+   "title": "P.L.2025, c.405 (A4899), application fee cap",
+   "citation": "N.J.S.A. 46:8-18.1",
+   "url": "https://pub.njleg.gov/bills/2024/PL25/405_.HTM",
+   "retrieved_at": "2026-10-01T22:37Z",
+   "sha256": "e06aa61acf6ddb50631d5be3c89c4029caccb13c0dcc7be888e0e64f8b182c2e",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-NJ-07",
+   "jurisdiction": "NJ",
+   "title": "P.L.2021, c.110, Fair Chance in Housing Act",
+   "citation": "N.J.S.A. 46:8-52 et seq.",
+   "url": "https://pub.njleg.gov/bills/2020/PL21/110_.HTM",
+   "retrieved_at": "2026-10-01T22:37Z",
+   "sha256": "c7d281ddae183438fd360bfa0b4824d6541c532efe6ae8123dad37e0f4d53e1e",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-NJ-08",
+   "jurisdiction": "NJ",
+   "title": "N.J.S.A. 10:5-12 (Justia mirror, 2025) + DCR Know Your Rights housing",
+   "citation": "N.J.S.A. 10:5-12(g)",
+   "url": "https://law.justia.com/codes/new-jersey/title-10/section-10-5-12/",
+   "retrieved_at": "2026-10-03T18:52Z",
+   "sha256": "857cb50fde16e0027346c44f502b2f0d854aad4bca7cf0926a31cd54adad8159",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-NJ-09",
+   "jurisdiction": "NJ",
+   "title": "P.L.2026, c.43, FAIR Act",
+   "citation": "N.J.S.A. 56:9-20 to 56:9-26",
+   "url": "https://pub.njleg.state.nj.us/Bills/2026/AL26/43_.HTM",
+   "retrieved_at": "2026-10-01T22:56Z",
+   "sha256": "1fdbfb48743a46429c3f47dbd8d08c665739202361661e1a2f19b94bb0ec43a6",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MA-01",
+   "jurisdiction": "MA",
+   "title": "M.G.L. c.40P, § 4",
+   "citation": "M.G.L. c.40P, § 4",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter40P/Section4",
+   "retrieved_at": "2026-10-01T22:36Z",
+   "sha256": "090647f489ec5f03c114df23b74c28a107a7e0b855e382969c27dbf58a55837d",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MA-02",
+   "jurisdiction": "MA",
+   "title": "WBUR: SJC strikes rent-control ballot question (2026-06-23)",
+   "citation": "Initiative Petition 25-21; Cella v. Attorney General (SJC 2026)",
+   "url": "https://www.wbur.org/news/2026/06/23/massachusetts-high-court-rent-control-ballot-question-struck",
+   "retrieved_at": "2026-10-03T18:52Z",
+   "sha256": "f5629f29118d1c10cdb602fafb4242c9899c2de4e3ebacdd9dca330bc8b0f825",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MA-03",
+   "jurisdiction": "MA",
+   "title": "M.G.L. c.186, § 12",
+   "citation": "M.G.L. c.186, § 12",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section12",
+   "retrieved_at": "2026-10-01T22:37Z",
+   "sha256": "6c1a194983bb0ee7079919bb8ef0e77efcd35d73dd9795853024a6eaaf5b24de",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MA-04",
+   "jurisdiction": "MA",
+   "title": "M.G.L. c.186, § 11",
+   "citation": "M.G.L. c.186, § 11",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section11",
+   "retrieved_at": "2026-10-01T22:37Z",
+   "sha256": "cdc077701a5c63533240e370c77ce86546bd2c8372d771433c52a98fadc48f19",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MA-05",
+   "jurisdiction": "MA",
+   "title": "M.G.L. c.186, § 15B",
+   "citation": "M.G.L. c.186, § 15B",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section15B",
+   "retrieved_at": "2026-10-01T22:37Z",
+   "sha256": "f24c21cb2b32330c0f2f112f066d02b784887a8552cc3777ea96f1d53dd0171f",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MA-06",
+   "jurisdiction": "MA",
+   "title": "MassLandlords: Can Massachusetts landlords charge an application fee?",
+   "citation": "M.G.L. c.186, § 15B (interpretation)",
+   "url": "https://masslandlords.net/can-massachusetts-landlords-charge-an-application-fee/",
+   "retrieved_at": "2026-10-03T18:51Z",
+   "sha256": "c44acb0f6d8cc04c4775c4d12cebb40cd913d9ec94972590e76ef8faca6e759c",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MA-07",
+   "jurisdiction": "MA",
+   "title": "M.G.L. c.151B, § 4",
+   "citation": "M.G.L. c.151B, § 4(10)",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXI/Chapter151B/Section4",
+   "retrieved_at": "2026-10-01T22:37Z",
+   "sha256": "ac42593c79533c25223582de77eb5411d2f8ef501a0d027d2a61042b7e81d7ef",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MA-08",
+   "jurisdiction": "MA",
+   "title": "Bill S.2983 (194th), status page",
+   "citation": "Mass. S.2983",
+   "url": "https://malegislature.gov/Bills/194/S2983",
+   "retrieved_at": "2026-10-01T22:36Z",
+   "sha256": "6ea5313d0a656ab73b683e72b594cf143ee61bd6923ee1d9f3df46682248004d",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MA-09",
+   "jurisdiction": "MA",
+   "title": "Bill H.5222 (194th), status page",
+   "citation": "Mass. H.5222",
+   "url": "https://malegislature.gov/Bills/194/H5222",
+   "retrieved_at": "2026-10-01T22:36Z",
+   "sha256": "8bc537dfe4d0e00b829147ae82ba11d40bef8a2b0696f487c417ca517673bba7",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-LA-01",
+   "jurisdiction": "Los Angeles, CA",
+   "title": "LAHD, RSO Overview",
+   "citation": "L.A. Mun. Code ch. XV art. 1 (RSO)",
+   "url": "https://housing.lacity.gov/residents/rso-overview",
+   "retrieved_at": "2026-10-03T20:05Z",
+   "sha256": "4d8837313d514bde68624c37ab37622dd950c542bdc74942702641519eae3ece",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-LA-02",
+   "jurisdiction": "Los Angeles, CA",
+   "title": "LA City Clerk council file 23-1134 (Ord. 188795, RSO formula)",
+   "citation": "Ord. No. 188795",
+   "url": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=23-1134",
+   "retrieved_at": "2026-10-03T20:10Z",
+   "sha256": "5a94e6ac2cd69a68c6f2d95098e47f22561535f04e59754c792752ea4029e091",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-LA-03",
+   "jurisdiction": "Los Angeles, CA",
+   "title": "AAGLA news alert: RSO formula ordinance",
+   "citation": "Ord. No. 188795 (secondary)",
+   "url": "https://members.aagla.org/news/news-alert-la-city-passes-severely-reduced-rso-formula-ordinance",
+   "retrieved_at": "2026-10-03T20:08Z",
+   "sha256": "6b36ce08e8585bc0a45cb1fba0414af1b4461cc5fb9757b2e2cd43e464e80dbf",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-LA-04",
+   "jurisdiction": "Los Angeles, CA",
+   "title": "LAHD, Just Cause for Eviction Ordinance (JCO)",
+   "citation": "L.A. Mun. Code § 165.03",
+   "url": "https://housing.lacity.gov/residents/just-cause-for-eviction-ordinance-jco",
+   "retrieved_at": "2026-10-01T22:36Z",
+   "sha256": "13f9d54597199b73e23ad12dcc38626d53bb30bd53d89a63b6a7f55ecc570425",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-LA-05",
+   "jurisdiction": "Los Angeles, CA",
+   "title": "Ordinance No. 187737 (JCO), City Clerk PDF",
+   "citation": "Ord. No. 187737",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2021/21-0042-S3_ord_187737_1-27-23.pdf",
+   "retrieved_at": "2026-10-03T20:18Z",
+   "sha256": "4b1ad73cc4cdfcd1dfa89e9866ad520ba38e4c74ae96a5bdf9d42ad925f0af07",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-LA-06",
+   "jurisdiction": "Los Angeles, CA",
+   "title": "LAMC § 45.67 Prohibited Activities (American Legal)",
+   "citation": "L.A. Mun. Code § 45.67",
+   "url": "https://codelibrary.amlegal.com/codes/los_angeles/latest/lamc/0-0-0-322208",
+   "retrieved_at": "2026-10-03T19:02Z",
+   "sha256": "5bf4a373a7f179abe26d4a65df8cba88ec507f881620eb616edf9cb362423883",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-LA-07",
+   "jurisdiction": "Los Angeles, CA",
+   "title": "CAA: City of Los Angeles source of income discrimination law",
+   "citation": "L.A. Mun. Code §§ 45.65-45.69 (secondary)",
+   "url": "https://2021.caanet.org/kb/city-of-los-angeles-source-of-income-discrimination-law/amp",
+   "retrieved_at": "2026-10-03T20:19Z",
+   "sha256": "8b708b205f93fee5ca9bebec640013aa44b9c37fae40473d62b487754b54992b",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-LA-08",
+   "jurisdiction": "Los Angeles, CA",
+   "title": "LA Council motion CF 24-1031 (2024-09-03)",
+   "citation": "CF 24-1031 (motion)",
+   "url": "https://cityclerk.lacity.org/onlinedocs/2024/24-1031_misc_9-03-24.pdf",
+   "retrieved_at": "2026-10-01T22:36Z",
+   "sha256": "cf36489eb7db23226ff24eb4a65615b9837c67659221630e0366a4ff4456df00",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-SF-01",
+   "jurisdiction": "San Francisco, CA",
+   "title": "SF Rent Board: annual rent increase 3/1/26-2/28/27 = 1.6%",
+   "citation": "S.F. Admin. Code § 37.3",
+   "url": "https://www.sf.gov/news--annual-rent-increase-3126-22827-announced",
+   "retrieved_at": "2026-10-01T22:37Z",
+   "sha256": "924783981b92aabf2a5200517290879d008fd1e8c579969bdddaa28ff6f9fd7d",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-SF-02",
+   "jurisdiction": "San Francisco, CA",
+   "title": "SF Rent Board: current rates (rent increase, deposit interest, relocation)",
+   "citation": "S.F. Admin. Code ch. 49; § 37.3",
+   "url": "https://www.sf.gov/reports--current-rates-including-rent-increase-relocation-sec-deposit",
+   "retrieved_at": "2026-10-01T22:37Z",
+   "sha256": "764e9e3a023bd434458dfea8ffbb57e57d23e5f0a4939cc10948b9e495034d2f",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-SF-03",
+   "jurisdiction": "San Francisco, CA",
+   "title": "SF Rent Board: overview of just cause evictions",
+   "citation": "S.F. Admin. Code § 37.9(a)",
+   "url": "https://sf.gov/information/overview-just-cause-evictions",
+   "retrieved_at": "2026-10-01T22:37Z",
+   "sha256": "51f9490227bafc8a6f458c7e417f41bce3af07c1416fae77f281b987d97ef793",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-SF-04",
+   "jurisdiction": "San Francisco, CA",
+   "title": "SF Human Rights Commission (Fair Chance Ordinance, housing)",
+   "citation": "S.F. Police Code art. 49",
+   "url": "https://sf-hrc.org/fair-chance-ordinance",
+   "retrieved_at": "2026-10-01T22:37Z",
+   "sha256": "448b85d4e40d5f17d12acf18db20aab4b9337b2e196099fee46c65f46dae91cc",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-SF-05",
+   "jurisdiction": "San Francisco, CA",
+   "title": "SF Rent Board: new law prohibits algorithmic devices (37.10C)",
+   "citation": "S.F. Admin. Code § 37.10C",
+   "url": "https://www.sf.gov/news/new-law-prohibits-algorithmic-devices-used-set-rents-san-francisco",
+   "retrieved_at": "2026-10-01T22:37Z",
+   "sha256": "e3437f99eae3882641b5052fd7006f2a0304abd2033e1b721a8c32324be2afab",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-SD-01",
+   "jurisdiction": "San Diego, CA",
+   "title": "SDMC ch. 9 art. 8 div. 7 Residential Tenant Protections (official PDF)",
+   "citation": "San Diego Mun. Code §§ 98.0701-98.0710",
+   "url": "https://docs.sandiego.gov/municode/municodechapter09/ch09art08division07.pdf",
+   "retrieved_at": "2026-10-01T22:37Z",
+   "sha256": "d1d4b9874a7c4b51a97cb81809e9ece2658f0f9e52898d904f90d48f3c1a140b",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-SD-02",
+   "jurisdiction": "San Diego, CA",
+   "title": "SDMC div. 8 source of income (NHLP PDF mirror)",
+   "citation": "San Diego Mun. Code §§ 98.0801-98.0803",
+   "url": "https://www.nhlp.org/wp-content/uploads/SD-Municipal-Code-SOI-Article-08-Housing-1.pdf",
+   "retrieved_at": "2026-10-03T20:14Z",
+   "sha256": "9fb006fd10b06cad86b82c9b900556c61efeb6824ef0f488304d1bb67b8ebbfa",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-SD-03",
+   "jurisdiction": "San Diego, CA",
+   "title": "gocodebook, SDMC div. 8 (capture failed/TOC only)",
+   "citation": "San Diego Mun. Code § 98.0801",
+   "url": "https://gocodebook.com/library/us/ca/san-diego-zoning/division-8-prohibition-of-discrimination-based-on-a-tenant-s-source-of-income",
+   "retrieved_at": "2026-10-03T20:13Z",
+   "sha256": "abf895812a5bbbe3c5c9d034375e071cadbc3b140964d9717a97754712d7f5db",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-SD-04",
+   "jurisdiction": "San Diego, CA",
+   "title": "gocodebook, SDMC § 98.1103 (Division 11)",
+   "citation": "San Diego Mun. Code § 98.1103",
+   "url": "https://gocodebook.com/library/us/ca/san-diego-zoning/division-11-prohibition-of-anti-competitive-automated-rent-price-fixing/98.1103-use-and-sale-of-algorithmic-devices-prohibited",
+   "retrieved_at": "2026-10-03T19:03Z",
+   "sha256": "3306d3942cba435225889f7502c80b8826d8e0471c042406947bb3e12c0c26eb",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-SD-05",
+   "jurisdiction": "San Diego, CA",
+   "title": "San Diego staff report + draft ordinance O-2025-107",
+   "citation": "San Diego Mun. Code §§ 98.1101-98.1104 (draft)",
+   "url": "https://sandiego.gov/sites/default/files/2025-04/automated-rent-price-fixing-prohibition-ordinance-materials.pdf",
+   "retrieved_at": "2026-10-01T22:37Z",
+   "sha256": "31b29a40becda1c218d4f64aedcb56a44241857b0f5d8b451c7b20b5737edc1e",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-BK-01",
+   "jurisdiction": "Berkeley, CA",
+   "title": "Berkeley Rent Board AGA 2026 public notice",
+   "citation": "Berkeley Mun. Code § 13.76.110",
+   "url": "https://rentboard.berkeleyca.gov/sites/default/files/documents/AGA%20Public%20Notice.pdf",
+   "retrieved_at": "2026-10-01T22:35Z",
+   "sha256": "969848595b70aa2ff7b9e8420f610c36b914521c4ea4dd1d0656be776e90c39f",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-BK-02",
+   "jurisdiction": "Berkeley, CA",
+   "title": "Berkeley Rent Board coverage by unit type",
+   "citation": "Berkeley Mun. Code § 13.76.050",
+   "url": "https://rentboard.berkeleyca.gov/sites/default/files/documents/Rent%20Ordinance%20Coverage%20by%20Unit%20Type.pdf",
+   "retrieved_at": "2026-10-01T22:35Z",
+   "sha256": "bddd7d3ab24d2717a0393cf879bad9a849af3aa10dd2e426bc9da34dcd19c5e3",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-BK-03",
+   "jurisdiction": "Berkeley, CA",
+   "title": "Berkeley Rent Board, Measure BB changes",
+   "citation": "Berkeley Mun. Code § 13.76.130",
+   "url": "https://rentboard.berkeleyca.gov/laws-regulations/measure-bb-changes-berkeleys-rent-ordinance",
+   "retrieved_at": "2026-10-01T22:35Z",
+   "sha256": "f1960db522de7f63158e64334835b37e52ae1d8fa8b510eeb314658aef4173fa",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-BK-04",
+   "jurisdiction": "Berkeley, CA",
+   "title": "Berkeley Rent Board, Security deposits",
+   "citation": "Berkeley Mun. Code § 13.76.070",
+   "url": "https://rentboard.berkeleyca.gov/rights-responsibilities/security-deposits",
+   "retrieved_at": "2026-10-01T22:35Z",
+   "sha256": "2ba3028382b89ee70810a45e25dd9707297bd65512e2723f4f9bda514af57203",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-BK-05",
+   "jurisdiction": "Berkeley, CA",
+   "title": "Berkeley Rent Board, Tenant screening and application fees",
+   "citation": "Berkeley Mun. Code ch. 13.78",
+   "url": "https://rentboard.berkeleyca.gov/laws-regulations/city-berkeley-ordinances-affecting-rental-properties/tenant-screening-and",
+   "retrieved_at": "2026-10-01T22:35Z",
+   "sha256": "396972b4e199efe65ff763eae53ed8a81d99e17ba900c39f16bfb44c16637bed",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-BK-06",
+   "jurisdiction": "Berkeley, CA",
+   "title": "Berkeley Rent Board, Fair Chance Access to Housing Ordinance",
+   "citation": "Berkeley Mun. Code ch. 13.106",
+   "url": "https://rentboard.berkeleyca.gov/Fair_Chance",
+   "retrieved_at": "2026-10-01T22:35Z",
+   "sha256": "a008c846fc4edd842994d8c5ea0367546e55319670e9687c5d1c7ccfdfa1ce40",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-BK-07",
+   "jurisdiction": "Berkeley, CA",
+   "title": "berkeley.municipal.codes, Ord. 7692-NS enactment page",
+   "citation": "Ord. 7692-NS",
+   "url": "https://berkeley.municipal.codes/enactments/Ord7692-NS",
+   "retrieved_at": "2026-10-03T20:17Z",
+   "sha256": "ddd50dcd5d5e7c3ee05eaa3af7780b5741dd0e14a89672721828fd95a9653197",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-BK-08",
+   "jurisdiction": "Berkeley, CA",
+   "title": "Ordinance 7,992-N.S. (2025-12-02 council item PDF)",
+   "citation": "Berkeley Mun. Code ch. 13.63",
+   "url": "https://berkeleyca.gov/sites/default/files/documents/2025-12-02%20Item%2001%20Ordinance%207992.pdf",
+   "retrieved_at": "2026-10-01T22:44Z",
+   "sha256": "7f24d692c68f42ed2ab11a2d1f8e060a951f8cf6a3974b4e8090e63081ad6f17",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-BK-09",
+   "jurisdiction": "Berkeley, CA",
+   "title": "berkeley.municipal.codes, Ord. 7992-NS / 7974-NS / 7956-NS enactment pages + 2025-07-08 council item",
+   "citation": "Ord. 7992-NS; 7974-NS; 7956-NS",
+   "url": "https://berkeley.municipal.codes/enactments/Ord7992-NS",
+   "retrieved_at": "2026-10-03T20:12Z",
+   "sha256": "bb632f815b79840b30edeecc71675f65acca0443f0a094735770011db0dbf933",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-SA-01",
+   "jurisdiction": "Santa Ana, CA",
+   "title": "Santa Ana, Rent Stabilization and Just Cause Eviction (dept page)",
+   "citation": "Santa Ana Mun. Code ch. 8 (RSO)",
+   "url": "https://santa-ana.gov/departments/rent-stabilization",
+   "retrieved_at": "2026-10-03T20:11Z",
+   "sha256": "fc10720530c3f1eeb733fe7954d39b62ad374c8d954053c61dea0a89444f08b3",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-SA-02",
+   "jurisdiction": "Santa Ana, CA",
+   "title": "Santa Ana press release: ordinances adopted, effective Nov 19 [2021]",
+   "citation": "Santa Ana RSO / Just Cause Eviction Ordinance",
+   "url": "https://santa-ana.gov/santa-ana-city-council-adopts-rent-stabilization-and-just-cause-eviction-ordinances-effective-nov-19",
+   "retrieved_at": "2026-10-01T22:37Z",
+   "sha256": "de9d126675c8ee1ab2809c897c8c819bfe241dc95de31ace5004b6c7973607d8",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-SA-03",
+   "jurisdiction": "Santa Ana, CA",
+   "title": "PublicCEO: Santa Ana bans anticompetitive rent-setting software (first reading 2026-02-17)",
+   "citation": "Santa Ana Ord. NS-3090 (secondary)",
+   "url": "https://www.publicceo.com/2026/02/santa-ana-city-council-continues-to-strengthen-tenant-protections-by-banning-anticompetitive-rent-setting-software/",
+   "retrieved_at": "2026-10-03T18:54Z",
+   "sha256": "4a5973758eb9fac48b2e4100158cdc22871590e8de59d0afc32ae5df0056a9c6",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-SA-04",
+   "jurisdiction": "Santa Ana, CA",
+   "title": "Voice of OC: Santa Ana bans automated rent price fixing",
+   "citation": "Santa Ana Ord. NS-3090 (secondary)",
+   "url": "https://voiceofoc.org/2026/02/santa-ana-bans-automated-rent-price-fixing/",
+   "retrieved_at": "2026-10-03T20:11Z",
+   "sha256": "e90f4604723b76f24463517cdf12b180867606cc51c99c5166c00c5604144313",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-SA-05",
+   "jurisdiction": "Santa Ana, CA",
+   "title": "Morgan Lewis survey of local algorithmic-pricing laws (Aug 2026)",
+   "citation": "Santa Ana Ord. NS-3090; Berkeley 13.63; JC § 218-12; Hoboken ch. 158 (secondary)",
+   "url": "https://morganlewis.com/pubs/2026/08/algorithmic-rent-pricing-litigation-expands-under-new-state-and-local-laws",
+   "retrieved_at": "2026-10-03T18:49Z",
+   "sha256": "62f6e9fd6c4634cd1ea457f1a996fa5f5c41aa2d3650c5cdb91a945c847b70e0",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-JC-01",
+   "jurisdiction": "Jersey City, NJ",
+   "title": "Jersey City, Landlord/Tenant Relations page",
+   "citation": "Jersey City Code ch. 260",
+   "url": "https://www.jerseycitynj.gov/landlordtenant",
+   "retrieved_at": "2026-10-01T22:36Z",
+   "sha256": "f444bed30ede0905ce671ac4b9addf27feaa31c9a74ba6ba537b7f8d77e81dce",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-JC-02",
+   "jurisdiction": "Jersey City, NJ",
+   "title": "Jersey City CPI notice quoting § 260-3 (June 2024)",
+   "citation": "Jersey City Code § 260-3",
+   "url": "https://cdnsm5-hosted.civiclive.com/UserFiles/Servers/Server_6189660/File/City%20Hall/Housing%20Economic%20Development/Tenant%20Landlord%20Relations/4.10.2024%20-%20June%202024%20CPI.pdf",
+   "retrieved_at": "2026-10-03T20:15Z",
+   "sha256": "1a500336e096eeb25cc296e8bc8998272ce7760f5c37609db22dac2814878643",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-JC-03",
+   "jurisdiction": "Jersey City, NJ",
+   "title": "Hudson County View: council approves RealPage ban (2025-05-22)",
+   "citation": "Jersey City Ord. 25-057 (secondary)",
+   "url": "https://hudsoncountyview.com/jersey-city-council-approves-realpage-ban-and-increasing-benefits-for-laborers/",
+   "retrieved_at": "2026-10-03T18:51Z",
+   "sha256": "1a62a55033ec56daa28b5e55278e73962d2cd205951750a9f3faade6f00aaf77",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-JC-04",
+   "jurisdiction": "Jersey City, NJ",
+   "title": "InsiderNJ press release: Ordinance 25-057 (first reading 2025-05-08)",
+   "citation": "Jersey City Ord. 25-057 (secondary)",
+   "url": "https://www.insidernj.com/press-release/jersey-city-council-advances-ordinances-that-ban-ai-powered-rent-fixing-algorithms/",
+   "retrieved_at": "2026-10-03T20:14Z",
+   "sha256": "a7e5869a89925973d8f405ee98aa3a26270f597ade952cea33cc8ac7ed526749",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-JC-05",
+   "jurisdiction": "Jersey City, NJ",
+   "title": "Jersey City ordinance PDF \"Ordinance Amending Chapter 218 Section 12\" (civicweb)",
+   "citation": "Jersey City Code § 218-12",
+   "url": "https://cityofjerseycity.civicweb.net/document/436629/Ordinance%20Amending%20Chapter%20218%20Section%2012.pdf",
+   "retrieved_at": "2026-10-03T20:15Z",
+   "sha256": "3fa405a7893163d73a818ecf397989e5709ff2aa758f90b6f4bb88105c4f9aa8",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-HOB-01",
+   "jurisdiction": "Hoboken, NJ",
+   "title": "Hoboken Code ch. 155 Rent Control, chapter index (ecode360)",
+   "citation": "Hoboken Code ch. 155",
+   "url": "https://ecode360.com/15252438",
+   "retrieved_at": "2026-10-03T19:02Z",
+   "sha256": "0c427a93b011d6a60c37c6c1da16cccbbcfd010abd17134c87337c7aa97c98b6",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-HOB-02",
+   "jurisdiction": "Hoboken, NJ",
+   "title": "Hoboken Code ch. 155 Article II (ecode360), § 155-5 increase cap",
+   "citation": "Hoboken Code § 155-5",
+   "url": "https://ecode360.com/15252470",
+   "retrieved_at": "2026-10-03T18:51Z",
+   "sha256": "56990e6554e32dedcb56fda00719782f6965426c56c7652660a846925188d164",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-HOB-03",
+   "jurisdiction": "Hoboken, NJ",
+   "title": "Hoboken Code § 155-2 Exemptions (ecode360)",
+   "citation": "Hoboken Code § 155-2",
+   "url": "https://ecode360.com/15252441",
+   "retrieved_at": "2026-10-03T20:16Z",
+   "sha256": "6943e4699bcc80d2f961b527196f43501846ea7c402b5211eb4e4387ea34b0b0",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-HOB-04",
+   "jurisdiction": "Hoboken, NJ",
+   "title": "Hoboken Code ch. 158 Rent Increases (ecode360), Ord. B-750, B-781",
+   "citation": "Hoboken Code ch. 158",
+   "url": "https://ecode360.com/46833413",
+   "retrieved_at": "2026-10-03T18:51Z",
+   "sha256": "cae21f17c3eb481da9c228362af7708f701bd91508f20eac3d2744b2d55b101c",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-HOB-05",
+   "jurisdiction": "Hoboken, NJ",
+   "title": "Hoboken Girl: council prohibits rent-setting algorithms (2025-07-09)",
+   "citation": "Hoboken Ord. B-781 (secondary)",
+   "url": "https://www.hobokengirl.com/hbooken-rent-setting-algorithm-prohibit/",
+   "retrieved_at": "2026-10-03T20:16Z",
+   "sha256": "7a0c9b8a23c10e7831f474faecc2a1f2a7dd6720ce2cdb56546885e7b9e01de4",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-NWK-01",
+   "jurisdiction": "Newark, NJ",
+   "title": "Newark Code Title XIX ch. 19:2 Rent Control (ecode360)",
+   "citation": "Newark Code § 19:2-3.1",
+   "url": "https://ecode360.com/36623772",
+   "retrieved_at": "2026-10-03T18:53Z",
+   "sha256": "006a573d9560bb495babfe9098ba2ecde474d38d6bcc13d14b06dd744ac08448",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-NWK-02",
+   "jurisdiction": "Newark, NJ",
+   "title": "Newark Code Title II ch. 2:31 Ban the Box (ecode360)",
+   "citation": "Newark Code § 2:31-2",
+   "url": "https://ecode360.com/36642000",
+   "retrieved_at": "2026-10-03T18:53Z",
+   "sha256": "b9b3d389c1c8e8bf9148f787bb9eebd500ff16ed5fe4eda2b7e839dd0dbf6f2e",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-BOS-01",
+   "jurisdiction": "Boston, MA",
+   "title": "Bill H.3744 (193rd), Boston home-rule petition status",
+   "citation": "Mass. H.3744",
+   "url": "https://malegislature.gov/Bills/193/H3744",
+   "retrieved_at": "2026-10-01T22:35Z",
+   "sha256": "93835654c3483e7b169677f7a3ccdcf021b6edab4ac81ab7ad3091903de71ff2",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-BOS-02",
+   "jurisdiction": "Boston, MA",
+   "title": "Boston.gov, Housing Stability Notification Act",
+   "citation": "Boston Code ch. 9 § 9-20",
+   "url": "https://www.boston.gov/housing-stability-notification-act",
+   "retrieved_at": "2026-10-01T22:35Z",
+   "sha256": "49b8ad77c47ac7a12afc5a1451cc38e8d908b45f83c922cbd2ee2eb320b715f0",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-BOS-03",
+   "jurisdiction": "Boston, MA",
+   "title": "Boston HSNA Tenant FAQs (PDF)",
+   "citation": "Boston Code ch. 9 § 9-20",
+   "url": "https://www.boston.gov/sites/default/files/file/2020/11/Housing%20Stability%20Notification%20Act%20Tenant%20FAQs.pdf",
+   "retrieved_at": "2026-10-01T22:35Z",
+   "sha256": "70574b2f50c363398d635ef9cc92eed83ba4eca0e404a04ec04bfba004ff9606",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-BOS-04",
+   "jurisdiction": "Boston, MA",
+   "title": "Boston Fair Chance Tenant Selection Policy (DND, Feb 2017)",
+   "citation": "Boston DND policy",
+   "url": "https://drive.google.com/file/d/1j4U3fDtmnYuwcUWhx5BMUcXc1bnKT8Ku/view?usp=sharing",
+   "retrieved_at": "2026-10-01T22:44Z",
+   "sha256": "61380f45cb66d87065eb029b6f5ee54dc704a0d059acc6136477337ce5f0cb73",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-BOS-05",
+   "jurisdiction": "Boston, MA",
+   "title": "Boston Fair Housing Regulations page",
+   "citation": "Boston Fair Housing Commission",
+   "url": "https://www.boston.gov/departments/fair-housing-and-equity/boston-fair-housing-regulations",
+   "retrieved_at": "2026-10-01T22:35Z",
+   "sha256": "aaed5c3d1e3aacb57a1f9a8fa9e855ecaa857bdbedc3d7b99a1992e7fc0aed0f",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-CAM-01",
+   "jurisdiction": "Cambridge, MA",
+   "title": "Cambridge, Tenants Rights and Resources Notification Ordinance (ch. 8.71)",
+   "citation": "Cambridge Mun. Code ch. 8.71",
+   "url": "https://www.cambridgema.gov/tenantrights",
+   "retrieved_at": "2026-10-01T22:36Z",
+   "sha256": "65ffa9dca5815b925debf63d1ff0974f710aed6614723f28d722209094a36b20",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-CAM-02",
+   "jurisdiction": "Cambridge, MA",
+   "title": "Cambridge Human Rights Commission (Fair Housing Ordinance ch. 14.04)",
+   "citation": "Cambridge Mun. Code ch. 14.04",
+   "url": "https://www.cambridgema.gov/departments/humanrightscommission",
+   "retrieved_at": "2026-10-01T22:36Z",
+   "sha256": "ce40e4d452c15e43e1bb07e7f03f7bd2bd738b2da614d1d21b7826f7e581e01c",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-CAM-03",
+   "jurisdiction": "Cambridge, MA",
+   "title": "Cambridge Day: council policy order on rental algorithms (2026-06-25)",
+   "citation": "n/a (policy order)",
+   "url": "https://www.cambridgeday.com/?p=158097",
+   "retrieved_at": "2026-10-03T18:50Z",
+   "sha256": "2d3222038257ccb8dbd92c3a1afbba13f19b05709adb7b8be84304a309000f72",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MA-10",
+   "jurisdiction": "MA",
+   "title": "M.G.L. c.112, § 87DDD½",
+   "citation": "M.G.L. c.112, § 87DDD½",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVI/Chapter112/Section87DDD%201~2",
+   "retrieved_at": "2026-10-01T22:56Z",
+   "sha256": "c678b42f8fc6ecfc7c7a6b1bdf6c68aec877daa80a53d62d5d2ca8176c967d7b",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MA-11",
+   "jurisdiction": "MA",
+   "title": "803 CMR 5.00 CORI, housing (NOT CAPTURED)",
+   "citation": "803 CMR 5.00",
+   "url": "https://www.mass.gov/doc/803-cmr-5-criminal-offender-record-information-cori-housing/download",
+   "retrieved_at": null,
+   "sha256": "d5ac25869c80cd3edbed611d84f82e05d1c0fd5ffcb2d664299ff1f36b4cb428",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MAN-01",
+   "jurisdiction": "Boston, MA",
+   "title": "Boston Fair Chance Tenant Selection Policy (DND, Feb 2017), manual PDF/txt",
+   "citation": "Boston Fair Chance Tenant Selection Policy (DND, February 2017)",
+   "url": "sources/manual/BOS-SCRN-02_boston_fair_chance_policy_2017.pdf",
+   "retrieved_at": "2026-10-04",
+   "sha256": "b15ce9bcd88eb5e2cc7f2dbe1c0c959c47c07e03df19e52030e43aa4858a41c0",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MAN-02",
+   "jurisdiction": "Boston, MA",
+   "title": "Boston Bar Journal (31 Aug 2023), scope of Boston Fair Chance policy",
+   "citation": "secondary",
+   "url": "sources/manual/BOS-SCRN-02_secondary_BBJ_2023.pdf",
+   "retrieved_at": "2026-10-04",
+   "sha256": "26b16a9333e3faf107e031f35aeeff81379dd64387a7903ebc51d4531bba74c7",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MAN-03",
+   "jurisdiction": "MA",
+   "title": "803 CMR 5.00 CORI, Housing (manual PDF/txt)",
+   "citation": "803 CMR 5.00",
+   "url": "sources/manual/MA-SCRN-02_803_CMR_5.pdf",
+   "retrieved_at": "2026-10-04",
+   "sha256": "78fbabe686385ac9f8e4a7e0ad69473db1a21fd0c545ec34f768c0b40a270cc9",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MAN-04",
+   "jurisdiction": "MA",
+   "title": "M.G.L. c.6 § 172 (FindLaw mirror; manual)",
+   "citation": "M.G.L. c.6, § 172(a)(3)",
+   "url": "https://codes.findlaw.com/ma/part-i-administration-of-the-government-ch-1-182/ma-gen-laws-ch-6-sect-172/",
+   "retrieved_at": "2026-10-04",
+   "sha256": "794cdd2f94839881f83220069e08cdf119f4889c1e7980e5a8181174b29f9e41",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MAN-05",
+   "jurisdiction": "Jersey City, NJ",
+   "title": "Jersey City Ord. 25-057 adopted copy (city clerk), manual PDF/txt",
+   "citation": "Jersey City Code § 218-12 (Ord. 25-057)",
+   "url": "sources/manual/JC-ALG-01_Ord_25-057_adopted.pdf",
+   "retrieved_at": "2026-10-04",
+   "sha256": "b0c5492027b1407ef7cb5a16630175ef787207214fcf01321671b18e47f39210",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MAN-06",
+   "jurisdiction": "Jersey City, NJ",
+   "title": "Jersey City Ord. 25-057 first-reading legal advertisement",
+   "citation": "Ord. 25-057 (first reading)",
+   "url": "sources/manual/JC-ALG-01_Ord_25-057_first_reading_ad.pdf",
+   "retrieved_at": "2026-10-04",
+   "sha256": "26b16a9333e3faf107e031f35aeeff81379dd64387a7903ebc51d4531bba74c7",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MAN-07",
+   "jurisdiction": "Hoboken, NJ",
+   "title": "Hoboken Code ch. 158 full chapter (ecode360 PDF), manual",
+   "citation": "Hoboken Code §§ 158-1, 158-2",
+   "url": "sources/manual/HOB-ALG-01_Hoboken_ch158_ecode360.pdf",
+   "retrieved_at": "2026-10-04",
+   "sha256": "b974c8cad10b4ea78b4ca9938ebb83493283c9753e6de5d4155771f369688513",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MAN-08",
+   "jurisdiction": "CA",
+   "title": "Cal. Bus. & Prof. Code § 16729 (Justia mirror), manual",
+   "citation": "Cal. Bus. & Prof. Code § 16729",
+   "url": "sources/manual/CA-ALG-01_BPC_16729_justia.pdf",
+   "retrieved_at": "2026-10-04",
+   "sha256": "f3cab6a2d8071e4e8f2c925e4bd8eda2c1a9c78de22fd15358f5437cd85d8251",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MAN-09",
+   "jurisdiction": "MA",
+   "title": "Cella v. Attorney General, SJC-13893 slip opinion, manual",
+   "citation": "Cella v. Attorney General, SJC-13893 (Mass. 2026-06-23)",
+   "url": "sources/manual/MA-RENT-P1_Cella_v_AG_SJC-13893.pdf",
+   "retrieved_at": "2026-10-04",
+   "sha256": "f6759a83bf67e3ca86d64f3a93ae25bd6bf94d16ce0581affb82a9422461e47c",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MAN-10",
+   "jurisdiction": "MA",
+   "title": "M.G.L. c.112 § 87DDD½ (Trial Court Law Libraries text), manual",
+   "citation": "M.G.L. c.112, § 87DDD½",
+   "url": "sources/manual/MA-FEE-02_c112_87DDD-half_masslaw.pdf",
+   "retrieved_at": "2026-10-04",
+   "sha256": "162b52c8ad1e219540f634b1d90005aaa99458918ed3b11dca7cde9e7ba5b5a1",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MAN-11",
+   "jurisdiction": "Berkeley, CA",
+   "title": "Berkeley Rent Board, Annual General Adjustment page, manual",
+   "citation": "Berkeley Mun. Code § 13.76.110",
+   "url": "sources/manual/BERK-RENT-01_AGA_page.pdf",
+   "retrieved_at": "2026-10-04",
+   "sha256": "2096ad477b14ddbd0085467bb2645077907488e7f74f136a131c363fe22f5e49",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MAN-12",
+   "jurisdiction": "CA",
+   "title": "Cal. Gov. Code § 12955 (Justia mirror), manual",
+   "citation": "Cal. Gov. Code § 12955",
+   "url": "sources/manual/CA-SCRN-01_Gov_12955_justia.pdf",
+   "retrieved_at": "2026-10-04",
+   "sha256": "362c9822ddb6d6265fc42a8b00bd53f212fe6c2e2888fbf83410db89486f8d6c",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MAN-13",
+   "jurisdiction": "NJ",
+   "title": "NJ State Policy Lab note on the FAIR Act (27 Jul 2026)",
+   "citation": "P.L.2026, c.43 (secondary)",
+   "url": "sources/manual/NJ-ALG-01_secondary_NJ_State_Policy_Lab_2026-07-27.pdf",
+   "retrieved_at": "2026-10-04",
+   "sha256": "26b16a9333e3faf107e031f35aeeff81379dd64387a7903ebc51d4531bba74c7",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MAN-14",
+   "jurisdiction": "Los Angeles, CA",
+   "title": "LAMC ch. XV art. 1 (RSO) full text incl. §§ 151.02, 151.06, 151.06.02, 151.09, manual",
+   "citation": "L.A. Mun. Code §§ 151.02, 151.06, 151.06.02, 151.09",
+   "url": "sources/manual/LA-JUST-02_LAMC_ch15_art1_151.txt",
+   "retrieved_at": "2026-10-04",
+   "sha256": "6df6d33a66395f5b0d8f377f103cbfb5d42bcfa05f2841c159d3f48a778dff6b",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-SA-06",
+   "jurisdiction": "Santa Ana, CA",
+   "title": "santa-ana.gov news: council bans anticompetitive rent-setting software",
+   "citation": "Santa Ana Ord. NS-3090 (uncodified)",
+   "url": "https://santa-ana.gov/santa-ana-city-council-continues-to-strengthen-tenant-protections-by-banning-anticompetitive-rent-setting-software/",
+   "retrieved_at": "2026-10-03T22:34Z",
+   "sha256": "fda277438f4b2faafaab0e1c7af9d1d45bd48e13ae959d61ad7a82ee5c937c61",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-SA-07",
+   "jurisdiction": "Santa Ana, CA",
+   "title": "santa-ana.gov Rent Stabilization Newsletter March 2026",
+   "citation": "Santa Ana Ord. NS-3090 (uncodified)",
+   "url": "https://santa-ana.gov/rent-stabilization-newsletter-march-2026/",
+   "retrieved_at": "2026-10-03T22:34Z",
+   "sha256": "d31da37c26a525d37c2a09d14eb81dad65498a2b5ece642de69bdc957c4a674a",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-BOS-06",
+   "jurisdiction": "Boston, MA",
+   "title": "Boston HSNA ordinance text (PDF)",
+   "citation": "Boston Code ch. X, § 10-11",
+   "url": "https://www.boston.gov/sites/default/files/file/2021/03/Housing%20Stability%20Notification%20Act.pdf",
+   "retrieved_at": "2026-10-03T22:34Z",
+   "sha256": "98c4ab3841abe2caf674bcb3b6d35e46de64bb1a41bbeb61d100ab98c13b33ba",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-BK-10",
+   "jurisdiction": "Berkeley, CA",
+   "title": "BMC 13.78.016 (code publisher; verbatim section excerpt)",
+   "citation": "Berkeley Mun. Code § 13.78.016",
+   "url": "https://berkeley.municipal.codes/BMC/13.78.016",
+   "retrieved_at": "2026-10-03T22:36Z",
+   "sha256": "55fe98a57cb0cdd76baec0989cb7561204ecb275ace0a08e35f006a3a73b0317",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-BK-11",
+   "jurisdiction": "Berkeley, CA",
+   "title": "BMC 13.78.010 (code publisher; verbatim section excerpt)",
+   "citation": "Berkeley Mun. Code § 13.78.010",
+   "url": "https://berkeley.municipal.codes/BMC/13.78.010",
+   "retrieved_at": "2026-10-03T22:36Z",
+   "sha256": "d0ca4e74c4882e8745623500d54a10cc3e8d930dbd75fd145a8c512149a9288d",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-CA-09",
+   "jurisdiction": "CA",
+   "title": "Cal. Bus. & Prof. Code § 16729 (official leginfo section page)",
+   "citation": "Cal. Bus. & Prof. Code § 16729",
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=16729",
+   "retrieved_at": "2026-10-03T22:34Z",
+   "sha256": "9dab9cdc887c056d92ef65d5395a3341a63e172d777a06fcba4f49b262bfeef3",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-HOB-06",
+   "jurisdiction": "Hoboken, NJ",
+   "title": "hobokennj.gov news: city to introduce algorithmic rent-fixing ordinance (2025-05-30)",
+   "citation": "Hoboken Ord. B-781 (introduction)",
+   "url": "https://www.hobokennj.gov/news/city-of-hoboken-to-introduce-ordinance-prohibiting-algorithmic-rent-fixing",
+   "retrieved_at": "2026-10-03T22:34Z",
+   "sha256": "c8faba210325b980b5fac6a18a5cd62da745be8d6b84c109603cffcd2f9dd8ec",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-SD-06",
+   "jurisdiction": "San Diego, CA",
+   "title": "SDMC ch. 9 art. 8 div. 8 (official PDF), team re-capture as D075",
+   "citation": "San Diego Mun. Code §§ 98.0801-98.0803",
+   "url": "https://docs.sandiego.gov/municode/municodechapter09/ch09art08division08.pdf",
+   "retrieved_at": "2026-10-03T21:16Z",
+   "sha256": "3a7cf2c9e63397ae6d79f4f2871ef536e8577c013387e2d8e6f22d5ff3fd9ff5",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MAN-15",
+   "jurisdiction": "Hoboken, NJ",
+   "title": "Hoboken Code ch. 155 Rent Control, full chapter (ecode360 PDF), manual",
+   "citation": "Hoboken Code §§ 155-2, 155-5",
+   "url": "sources/manual/HOB-RENT-01_Hoboken_ch155_ecode360.pdf",
+   "retrieved_at": "2026-10-04",
+   "sha256": "a8c688b56b9b2de375622a715ca0449ad11a3ed122f5b408d2aa96dff078bf82",
+   "evidence_basis": "register",
+   "cited_by": []
+  },
+  {
+   "source_id": "S-MA-12",
+   "jurisdiction": "MA",
+   "title": "M.G.L. c.6, § 172 (official malegislature.gov page)",
+   "citation": "M.G.L. c.6, § 172(a)(3)",
+   "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleII/Chapter6/Section172",
+   "retrieved_at": "2026-10-03T22:58Z",
+   "sha256": "bc8bcf0776924a395a0cd6b752bd7703821cf3bbe5035337794c6d153455e37f",
+   "evidence_basis": "register",
+   "cited_by": []
+  }
+ ]
+}

@@ -67,6 +67,10 @@ export const addressSchema = z.object({
   zip: blank,
   year_built: blank,
   units: blank,
+  // Geocoded legal jurisdiction (Census incorporated place); the mailing city above may differ.
+  legal_city: blank,
+  legal_state: blank,
+  jurisdiction_method: blank,
 });
 export type Address = z.infer<typeof addressSchema>;
 
