@@ -125,7 +125,7 @@ export function normalizeUrl(u: string | null | undefined): string {
 
 function asArray(v: unknown, key: string): unknown[] {
   if (v && typeof v === "object" && Array.isArray((v as Record<string, unknown>)[key])) {
-    return (v as Record<string, unknown[]>)[key];
+    return (v as Record<string, unknown[]>)[key] ?? [];
   }
   return [];
 }
@@ -143,9 +143,9 @@ export function buildData(raw: RawData): DataBundle {
   asArray(raw.rules, "rules").forEach((r, i) => {
     const p = ruleSchema.safeParse(r);
     const id = (r as { team_rule_id?: string })?.team_rule_id ?? `#${i}`;
-    if (!p.success) return issues.push({ file: "rules.json", record: id, message: issueMsg(p.error) });
+    if (!p.success) return void issues.push({ file: "rules.json", record: id, message: issueMsg(p.error) });
     if (rulesById.has(p.data.team_rule_id))
-      return issues.push({ file: "rules.json", record: id, message: "Duplicate team_rule_id" });
+      return void issues.push({ file: "rules.json", record: id, message: "Duplicate team_rule_id" });
     rules.push(p.data);
     rulesById.set(p.data.team_rule_id, p.data);
   });
@@ -154,7 +154,7 @@ export function buildData(raw: RawData): DataBundle {
   asArray(raw.addresses, "addresses").forEach((a, i) => {
     const p = addressSchema.safeParse(a);
     const id = (a as { address_id?: string })?.address_id ?? `#${i}`;
-    if (!p.success) return issues.push({ file: "addresses.json", record: id, message: issueMsg(p.error) });
+    if (!p.success) return void issues.push({ file: "addresses.json", record: id, message: issueMsg(p.error) });
     addresses.push(p.data);
   });
 
@@ -162,7 +162,7 @@ export function buildData(raw: RawData): DataBundle {
   asArray(raw.sources, "sources").forEach((s, i) => {
     const p = sourceSchema.safeParse(s);
     const id = (s as { source_id?: string })?.source_id ?? `#${i}`;
-    if (!p.success) return issues.push({ file: "sources.json", record: id, message: issueMsg(p.error) });
+    if (!p.success) return void issues.push({ file: "sources.json", record: id, message: issueMsg(p.error) });
     sources.push(p.data);
   });
 
@@ -182,14 +182,14 @@ export function buildData(raw: RawData): DataBundle {
       rows.forEach((row, i) => {
         const p = lookupRowSchema.safeParse(row);
         const rec = `${addrId}[${i}]`;
-        if (!p.success) return issues.push({ file: "lookups.json", record: rec, message: issueMsg(p.error) });
+        if (!p.success) return void issues.push({ file: "lookups.json", record: rec, message: issueMsg(p.error) });
         if (!rulesById.has(p.data.team_rule_id))
-          return issues.push({
+          return void issues.push({
             file: "lookups.json",
             record: rec,
             message: `References unknown rule ${p.data.team_rule_id}`,
           });
-        lookups[addrId].push(p.data);
+        lookups[addrId]!.push(p.data);
       });
     }
   }
