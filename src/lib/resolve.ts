@@ -81,7 +81,7 @@ export function jurisdictionStack(address: Address, rows: LookupRow[], rulesById
     return {
       state: address.state,
       cityJurisdiction: cityRule.jurisdiction,
-      city: cityRule.jurisdiction.split(",")[0].trim(),
+      city: (cityRule.jurisdiction.split(",")[0] ?? "").trim(),
       inferred: false,
     };
   }
