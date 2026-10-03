@@ -1,12 +1,13 @@
 import type { AddressResult } from "@/lib/resolve";
+import { lookupsAsOf } from "@/data";
 import { formatDate } from "@/lib/format";
 import { useLang } from "@/i18n";
 import { StatusBadge } from "./StatusBadge";
 
 export function ChangesPanel({ result }: { result: AddressResult }) {
   const { t, lang } = useLang();
-  const { upcoming, failed, changeNotes } = result;
-  const empty = upcoming.length === 0 && failed.length === 0 && changeNotes.length === 0;
+  const { upcoming, nowInEffect, failed, changeNotes } = result;
+  const empty = upcoming.length === 0 && nowInEffect.length === 0 && failed.length === 0 && changeNotes.length === 0;
 
   return (
     <aside aria-labelledby="changes-h" className="rounded-lg border border-border bg-card p-5">
@@ -25,6 +26,24 @@ export function ChangesPanel({ result }: { result: AddressResult }) {
                 <p className="mt-1.5 text-sm font-medium" lang="en">{r.title}</p>
                 <p className="text-xs text-muted-foreground">
                   {r.effective_date ? t.changes.effective(formatDate(r.effective_date, lang)) : ""}
+                  {r.conflict_flag && " · " + t.badges.review}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {nowInEffect.length > 0 && (
+        <section className="mt-5">
+          <h3 className="eyebrow">{t.changes.nowInEffect(formatDate(lookupsAsOf, lang))}</h3>
+          <ul className="mt-2 space-y-3">
+            {nowInEffect.map((r) => (
+              <li key={r.team_rule_id}>
+                <StatusBadge kind="applies" />
+                <p className="mt-1.5 text-sm font-medium" lang="en">{r.title}</p>
+                <p className="text-xs text-muted-foreground">
+                  {t.changes.effective(formatDate(r.effective_date, lang))}
                   {r.conflict_flag && " · " + t.badges.review}
                 </p>
               </li>

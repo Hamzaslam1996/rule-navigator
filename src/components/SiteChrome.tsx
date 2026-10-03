@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Scale } from "lucide-react";
+import { useEffect, useState } from "react";
 import { useLang, type Lang } from "@/i18n";
 
 export function LegalBanner() {
@@ -14,6 +15,8 @@ export function LegalBanner() {
 
 export function SiteHeader() {
   const { t, lang, setLang } = useLang();
+  const [hydrated, setHydrated] = useState(false);
+  useEffect(() => setHydrated(true), []);
   const navCls = "rounded px-2 py-1 text-sm text-muted-foreground hover:text-foreground";
   const active = { className: "text-foreground font-semibold underline decoration-terracotta decoration-2 underline-offset-8" };
   return (
@@ -39,11 +42,12 @@ export function SiteHeader() {
                 type="button"
                 lang={l}
                 aria-pressed={lang === l}
+                disabled={!hydrated}
                 onClick={() => setLang(l)}
                 className={
                   lang === l
                     ? "bg-primary px-2.5 py-1 text-sm font-medium text-primary-foreground"
-                    : "bg-card px-2.5 py-1 text-sm text-foreground hover:bg-secondary"
+                    : "bg-card px-2.5 py-1 text-sm text-foreground hover:bg-secondary disabled:cursor-wait disabled:opacity-60"
                 }
               >
                 {l === "en" ? "English" : "Español"}
