@@ -27,3 +27,9 @@ npm run dev
 - TypeScript
 - React
 - Tailwind CSS
+
+## Swapping in real back-end data
+
+All app data lives in five JSON files in `src/data/`: `rules.json`, `lookups.json`, `changes.json`, `addresses.json` and `sources.json`. Replace them with real back-end output that matches the same data contract (same field names and value types).
+
+`src/data/index.ts` is the single loader: every screen reads through it, and it validates each record with zod on load. Malformed records are skipped (never crash the app), logged to the console, and listed under "Data issues" on the `/audit` page.

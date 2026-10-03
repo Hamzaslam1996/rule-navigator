@@ -115,6 +115,7 @@ export interface AddressResult {
   byCategory: Record<Category, ResolvedItem[]>;
   counts: Record<Badge | "review", number>;
   upcoming: Rule[];
+  nowInEffect: Rule[];
   failed: Rule[];
   changeNotes: ChangeNote[];
   tickDates: string[];
@@ -172,7 +173,13 @@ export function resolveAddress(address: Address, date: string, data: DataBundle,
   const upcoming = inStack.filter((r) => {
     if (r.negative_finding || r.status === "failed") return false;
     const E = normDate(r.effective_date);
-    return r.status === "pending" || r.status === "not_yet_effective" || (!!E && E > date);
+    if (r.status === "pending") return true;
+    return E ? E > date : r.status === "not_yet_effective";
+  });
+  const nowInEffect = inStack.filter((r) => {
+    if (r.negative_finding || r.status === "failed" || r.status === "pending") return false;
+    const E = normDate(r.effective_date);
+    return !!E && E > data.lookupsAsOf && E <= date;
   });
   const failed = [
     ...inStack.filter((r) => r.status === "failed"),
@@ -191,5 +198,5 @@ export function resolveAddress(address: Address, date: string, data: DataBundle,
     ),
   ].sort();
 
-  return { stack, hasLookups: rows.length > 0, byCategory, counts, upcoming, failed, changeNotes, tickDates };
+  return { stack, hasLookups: rows.length > 0, byCategory, counts, upcoming, nowInEffect, failed, changeNotes, tickDates };
 }

@@ -88,6 +88,7 @@ export const es: Dict = {
     empty: "No hay cambios próximos en nuestros datos para esta dirección.",
     upcoming: "Próximos o pendientes",
     notes: "Notas de cambio",
+    nowInEffect: (d: string) => `Ya vigente (cambió desde el ${d})`,
     didNot: "No se convirtió en ley",
     effective: (d: string) => `Vigente desde ${d}`,
     status: { pending: "Proyecto pendiente", not_yet_effective: "Aún no vigente", in_force: "Entra en vigor después", failed: "No se convirtió en ley" },

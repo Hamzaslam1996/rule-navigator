@@ -86,6 +86,7 @@ export const en = {
     empty: "No upcoming changes in our data for this address.",
     upcoming: "Upcoming or pending",
     notes: "Change notes",
+    nowInEffect: (d: string) => `Now in effect (changed since ${d})`,
     didNot: "Did not become law",
     effective: (d: string) => `Effective ${d}`,
     status: { pending: "Pending bill", not_yet_effective: "Not yet effective", in_force: "Takes effect later", failed: "Did not become law" },

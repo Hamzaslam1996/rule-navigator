@@ -53,3 +53,17 @@ describe("stack and guardrails", () => {
     expect(warns.length).toBe(3);
   });
 });
+
+describe("what's changing follows the date", () => {
+  it("moves the FAIR Act to now-in-effect at 2027-07-01 for A0227", () => {
+    const before = resolveAddress(getAddress("A0227")!, "2026-10-01", data, silent);
+    expect(before.upcoming.map((r) => r.team_rule_id)).toContain("NJ-ALG-01");
+    const after = resolveAddress(getAddress("A0227")!, "2027-07-01", data, silent);
+    expect(after.upcoming.map((r) => r.team_rule_id)).not.toContain("NJ-ALG-01");
+    expect(after.nowInEffect.map((r) => r.team_rule_id)).toContain("NJ-ALG-01");
+  });
+  it("keeps pending bills pending at any date", () => {
+    const r = resolveAddress(getAddress("A0065")!, "2027-12-31", data, silent);
+    expect(r.upcoming.map((x) => x.team_rule_id)).toContain("MA-ALG-P1");
+  });
+});
