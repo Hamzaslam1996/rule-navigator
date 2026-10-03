@@ -35,6 +35,7 @@ function Home() {
         <h2 id="browse-h" className="text-xl font-semibold">
           {t.home.browse}
         </h2>
+        {addresses.length === 0 && <p className="mt-4 text-sm text-muted-foreground">{t.home.noData}</p>}
         <div className="mt-4 grid gap-6 sm:grid-cols-3">
           {states.map((s) => (
             <div key={s}>

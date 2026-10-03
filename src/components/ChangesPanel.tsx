@@ -1,6 +1,6 @@
 import type { AddressResult } from "@/lib/resolve";
 import { lookupsAsOf } from "@/data";
-import { formatDate } from "@/lib/format";
+import { formatDate, hideInternalNote } from "@/lib/format";
 import { useLang } from "@/i18n";
 import { StatusBadge } from "./StatusBadge";
 
@@ -62,7 +62,7 @@ export function ChangesPanel({ result }: { result: AddressResult }) {
                   <span className="font-mono text-xs font-semibold">{c.test_id}</span>
                   {c.review && <StatusBadge kind="review" className="text-xs" />}
                 </div>
-                <p lang="en">{c.notes}</p>
+                {hideInternalNote(c.notes) ? <p lang="en">{hideInternalNote(c.notes)}</p> : c.review ? <p>{t.address.reviewHidden}</p> : null}
               </li>
             ))}
           </ul>

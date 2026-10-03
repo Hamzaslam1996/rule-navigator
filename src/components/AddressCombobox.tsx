@@ -79,6 +79,7 @@ export function AddressCombobox({ addresses }: { addresses: Address[] }) {
             blurTimer.current = setTimeout(() => setOpen(false), 120);
           }}
           onKeyDown={onKeyDown}
+          disabled={addresses.length === 0}
           className="w-full rounded-md border border-input bg-card py-3.5 pl-11 pr-4 text-lg shadow-sm placeholder:text-muted-foreground"
         />
       </div>
@@ -88,6 +89,9 @@ export function AddressCombobox({ addresses }: { addresses: Address[] }) {
       <div role="status" aria-live="polite" className="sr-only">
         {q.trim() ? (noMatch ? t.home.notFound : t.home.results(matches.length)) : ""}
       </div>
+      {addresses.length === 0 && (
+        <p className="mt-3 rounded-md border border-border bg-secondary px-4 py-3 text-sm text-muted-foreground">{t.home.noData}</p>
+      )}
       {noMatch && (
         <p className="mt-3 rounded-md border border-status-unknown/40 bg-status-unknown-tint px-4 py-3 text-sm text-status-unknown">
           {t.home.notFound}

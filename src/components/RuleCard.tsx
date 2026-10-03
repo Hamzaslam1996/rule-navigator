@@ -2,7 +2,7 @@ import { ExternalLink } from "lucide-react";
 import type { Address } from "@/data";
 import { getSourceByUrl } from "@/data";
 import { confidenceLabel, missingFacts, type ResolvedItem } from "@/lib/resolve";
-import { fingerprint, formatDate, formatTimestamp } from "@/lib/format";
+import { fingerprint, formatDate, formatTimestamp, hideInternalNote } from "@/lib/format";
 import { useLang } from "@/i18n";
 import { StatusBadge } from "./StatusBadge";
 import { ListenButton } from "./ListenButton";
@@ -14,6 +14,8 @@ export function RuleCard({ item, address }: { item: ResolvedItem; address: Addre
   const isNone = badge === "none";
   const conf = confidenceLabel(rule.confidence);
   const source = getSourceByUrl(rule.source_url);
+  const explanation = hideInternalNote(item.explanation);
+  const reviewNote = item.reviewNote ? (hideInternalNote(item.reviewNote) ?? t.address.reviewHidden) : null;
   const missing = badge === "unknown" ? missingFacts(address) : [];
 
   return (
@@ -48,12 +50,12 @@ export function RuleCard({ item, address }: { item: ResolvedItem; address: Addre
         </div>
       )}
 
-      {(item.explanation || missing.length > 0) && (
+      {(explanation || missing.length > 0) && (
         <div className="mt-4">
           <p className="text-sm font-semibold" lang={lang}>
             {t.address.why}
           </p>
-          {item.explanation && <p className="text-sm text-muted-foreground">{item.explanation}</p>}
+          {explanation && <p className="text-sm text-muted-foreground">{explanation}</p>}
           {missing.length > 0 && (
             <ul className="mt-2 flex flex-wrap gap-2" lang={lang}>
               {missing.map((m) => (
@@ -66,12 +68,12 @@ export function RuleCard({ item, address }: { item: ResolvedItem; address: Addre
         </div>
       )}
 
-      {item.review && item.reviewNote && (
+      {item.review && reviewNote && (
         <div className="mt-4 rounded-md border border-status-review/30 bg-status-review-tint p-3 text-sm">
           <p className="font-semibold text-status-review" lang={lang}>
             {t.address.reviewNote}
           </p>
-          <p className="text-foreground">{item.reviewNote}</p>
+          <p className="text-foreground">{reviewNote}</p>
         </div>
       )}
 

@@ -20,3 +20,12 @@ export function formatTimestamp(s: string | null | undefined, lang: Lang): strin
 }
 
 export const fingerprint = (sha: string | null | undefined) => (sha ? sha.slice(0, 12) : "");
+
+/** Hides internal team notes ("Decided by …" or "(Q<n>" question ids) from public display. */
+export function hideInternalNote(text: string | null | undefined): string | null {
+  if (!text) return null;
+  const t = text.trim();
+  if (!t) return null;
+  if (/^decided by/i.test(t) || /\(Q\d/i.test(t)) return null;
+  return text;
+}
