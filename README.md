@@ -1,32 +1,17 @@
-# Welcome to your Lovable project
+# Statute Street: web interface
 
-This project was built with [Lovable](https://lovable.dev).
+The workspace for Statute Street, a compliance ledger for rental housing. Engine, data and method: https://github.com/Hamzaslam1996/statute-street
 
-## Build with Lovable
+Legal information, not legal advice.
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## Run locally
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
 npm i
 npm run dev
 ```
 
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+Built with TanStack Start, React, TypeScript, Tailwind; interface built with Lovable.
 
 ## Swapping in real back-end data
 
