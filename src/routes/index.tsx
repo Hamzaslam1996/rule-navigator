@@ -1,61 +1,17 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { getAddresses } from "@/data";
+import { useState } from "react";
+import { ArrowRight } from "lucide-react";
+import { getAddresses, getRules, lookupsAsOf } from "@/data";
 import { AddressCombobox } from "@/components/AddressCombobox";
-import { useT } from "@/i18n";
+import { PublicHeader } from "@/components/PublicChrome";
+import { RequestAccessModal } from "@/components/RequestAccessModal";
+import { Button, buttonVariants } from "@/components/ui/button";
+import { useLang } from "@/i18n";
 
-export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Statute Street: Which housing rules apply to this apartment?" },
-      { name: "description", content: "Look up a rental address in CA, NJ or MA and see the housing rules in force on any date, each with a quoted source." },
-      { property: "og:title", content: "Statute Street: Which housing rules apply to this apartment?" },
-      { property: "og:description", content: "Rental housing rules by address and date, each with a quoted source." },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
-    ],
-  }),
-  component: Home,
-});
-
-function Home() {
-  const t = useT();
-  const addresses = getAddresses();
-  const states = [...new Set(addresses.map((a) => a.state))];
-  return (
-    <div className="mx-auto max-w-3xl px-4 py-14 md:py-20">
-      <p className="eyebrow">{t.home.eyebrow}</p>
-      <h1 className="mt-3 text-4xl font-semibold md:text-5xl">{t.home.title}</h1>
-      <p className="mt-4 text-lg text-muted-foreground">{t.home.lead}</p>
-      <div className="mt-10">
-        <AddressCombobox addresses={addresses} />
-      </div>
-      <p className="mt-6 text-sm text-muted-foreground">{t.home.scope}</p>
-
-      <section className="hairline mt-14 pt-8" aria-labelledby="browse-h">
-        <h2 id="browse-h" className="text-xl font-semibold">
-          {t.home.browse}
-        </h2>
-        {addresses.length === 0 && <p className="mt-4 text-sm text-muted-foreground">{t.home.noData}</p>}
-        <div className="mt-4 grid gap-6 sm:grid-cols-3">
-          {states.map((s) => (
-            <div key={s}>
-              <h3 className="eyebrow">{s}</h3>
-              <ul className="mt-2 space-y-1.5 text-sm">
-                {addresses
-                  .filter((a) => a.state === s)
-                  .map((a) => (
-                    <li key={a.address_id}>
-                      <Link to="/address/$id" params={{ id: a.address_id }} className="hover:text-primary hover:underline">
-                        {a.street_address}
-                        <span className="text-muted-foreground"> · {a.postal_city}</span>
-                      </Link>
-                    </li>
-                  ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      </section>
-    </div>
-  );
-}
+export const Route=createFileRoute("/")({head:()=>({meta:[{title:"Statute Street: Rental housing compliance"},{name:"description",content:"Dated, evidence backed rental housing determinations by address."},{property:"og:title",content:"Statute Street: Rental housing compliance"},{property:"og:description",content:"Dated, evidence backed rental housing determinations by address."},{property:"og:type",content:"website"},{name:"twitter:card",content:"summary"}]}),component:PublicDoor});
+function PublicDoor(){const {t}=useLang();const [open,setOpen]=useState(false);const addresses=getAddresses();const cities=new Set(addresses.map(a=>a.legal_city||a.postal_city)).size;return <><PublicHeader/><div className="mx-auto max-w-6xl px-4"><section className="py-16 md:py-24"><p className="eyebrow">{t.v2.public.eyebrow}</p><h1 className="mt-4 max-w-3xl text-5xl font-semibold md:text-7xl">{t.home.title}</h1><p className="mt-5 max-w-2xl text-lg text-muted-foreground">{t.v2.public.lead}</p><div className="mt-7 flex flex-wrap gap-3"><Link to="/app" search={{asof:"2026-10-01"}} className={buttonVariants({size:"lg"})}>{t.v2.public.openWorkspace}<ArrowRight/></Link><Button size="lg" variant="outline" onClick={()=>setOpen(true)}>{t.v2.requestAccess}</Button></div><div className="mt-14 max-w-2xl"><AddressCombobox addresses={addresses} target="workspace"/><p className="mt-2 font-mono text-xs text-muted-foreground">{t.v2.public.asOf}</p>{addresses.length>0&&<ul className="mt-4 grid gap-2 text-sm">{["A0016","A0002","A0010"].map((id,i)=>addresses.some(a=>a.address_id===id)&&<li key={id}><Link to="/app/address/$id" params={{id}} search={{asof:lookupsAsOf}} className="text-primary hover:underline"><span className="font-semibold">{t.v2.public.try}:</span> {t.v2.public.examples[i]}</Link></li>)}</ul>}</div></section>
+<section className="border-t border-border py-14"><h2 className="text-3xl font-semibold">{t.v2.public.problem}</h2><div className="mt-7 grid gap-8 md:grid-cols-3">{t.v2.public.problems.map(x=><article key={x.h}><h3 className="text-xl font-semibold">{x.h}</h3><p className="mt-2 text-sm text-muted-foreground">{x.p}</p></article>)}</div></section>
+<section className="border-t border-border py-14"><h2 className="text-3xl font-semibold">{t.v2.public.loop}</h2><ol className="mt-7 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">{t.v2.public.steps.map((x,i)=><li key={x.h}><span className="font-mono text-sm text-terracotta">0{i+1}</span><h3 className="mt-2 text-xl font-semibold">{x.h}</h3><p className="mt-1 text-sm text-muted-foreground">{x.p}</p></li>)}</ol></section>
+<p className="border-y border-border py-5 font-mono text-sm">{t.v2.public.proof(addresses.length,cities,getRules().length)}</p></div>
+<section className="bg-banner text-banner-foreground"><div className="mx-auto max-w-6xl px-4 py-14"><p className="eyebrow">{t.v2.public.early}</p><h2 className="mt-2 text-3xl font-semibold">{t.v2.public.operators}</h2><div className="mt-5 flex flex-wrap items-center gap-6">{t.v2.public.benefits.map(b=><span key={b} className="font-mono text-sm">{b}</span>)}<Button className="ml-auto" variant="secondary" onClick={()=>setOpen(true)}>{t.v2.requestAccess}</Button></div></div></section>
+<footer className="mx-auto flex max-w-6xl flex-wrap justify-between gap-4 px-4 py-8 text-sm text-muted-foreground"><p>{t.banner}</p><nav className="flex gap-4"><Link to="/app/method" search={{asof:"2026-10-01"}}>{t.v2.shell.nav.method}</Link><Link to="/app/evidence" search={{asof:"2026-10-01"}}>{t.v2.shell.nav.evidence}</Link></nav><p className="w-full font-mono text-xs">{t.v2.public.prototype}</p></footer><RequestAccessModal open={open} onClose={()=>setOpen(false)}/></>}

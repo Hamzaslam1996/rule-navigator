@@ -13,7 +13,7 @@ import { useEffect, type ReactNode } from "react";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { LangProvider, useT } from "@/i18n";
-import { LegalBanner, SiteFooter, SiteHeader } from "@/components/SiteChrome";
+import { LegalBanner } from "@/components/SiteChrome";
 
 function NotFoundComponent() {
   const t = useT();
@@ -107,11 +107,9 @@ function RootComponent() {
     <QueryClientProvider client={queryClient}>
       <LangProvider>
         <LegalBanner />
-        <SiteHeader />
         <main id="main">
           <Outlet />
         </main>
-        <SiteFooter />
       </LangProvider>
     </QueryClientProvider>
   );

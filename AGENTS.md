@@ -14,3 +14,4 @@
 - Result logic lives in pure functions in `src/lib/resolve.ts` (date adjustment, guardrails, jurisdiction stack) — keeps it unit-testable in `src/test/resolve.test.ts`.
 - All UI strings go through `src/i18n/{en,es}.ts`; rule content stays in English — one dictionary type keeps translations complete.
 - No backend, auth or external calls; TTS is a no-op stub behind `FEATURE_TTS` — hackathon scope is front end only.
+- The public door lives at `/`; all operational tools share the `/app` shell and URL-synchronised as-of date — keeps compliance work consistent across screens.
