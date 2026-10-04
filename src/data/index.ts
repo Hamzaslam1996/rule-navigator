@@ -38,6 +38,7 @@ export const ruleSchema = z.object({
   requirement: z.string().min(1),
   requirement_es: nstr.optional(),
   key_value: nstr,
+  key_value_short: nstr.optional(),
   coverage_conditions: nstr,
   exemptions: nstr,
   effective_date: nstr,
@@ -57,6 +58,7 @@ export const lookupRowSchema = z.object({
   result: z.enum(["applies", "unknown", "superseded", "not_yet_effective", "pending"]),
   explanation: nstr,
   conflict_flag: z.boolean().default(false),
+  governed_by: nstr.optional(),
 });
 export type LookupRow = z.infer<typeof lookupRowSchema>;
 
@@ -68,6 +70,7 @@ export const addressSchema = z.object({
   zip: blank,
   year_built: blank,
   units: blank,
+  use_description: nstr.optional(),
   // Geocoded legal jurisdiction (Census incorporated place); the mailing city above may differ.
   legal_city: blank,
   legal_state: blank,
@@ -109,6 +112,7 @@ export interface DataBundle {
   sources: Source[];
   issues: DataIssue[];
 }
+
 
 export interface RawData {
   rules: unknown;
@@ -244,3 +248,4 @@ export function getRulesCitingSource(s: Source): Rule[] {
   const n = normalizeUrl(s.url);
   return data.rules.filter((r) => (n && normalizeUrl(r.source_url) === n) || (r.source_doc_id && r.source_doc_id === s.source_id));
 }
+

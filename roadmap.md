@@ -7,3 +7,6 @@
 - [x] Implement DESIGN_BRIEF v2 public door and workspace
 - [x] Add full bilingual v2 UI copy
 - [ ] Verify tests, preview, and mobile layouts
+- [ ] Implement UI_FIXES_01 items 1 through 12
+- [ ] Implement UI_FIXES_02 items 1 and 2
+- [ ] Run tests and verify desktop and mobile flows

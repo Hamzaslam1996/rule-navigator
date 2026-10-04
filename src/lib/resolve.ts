@@ -26,6 +26,7 @@ export interface ResolvedItem {
   takesEffect: string | null;
   fromLookup: boolean;
   downgraded: boolean;
+  governedBy: string | null;
 }
 
 type Warn = (msg: string) => void;
@@ -65,6 +66,7 @@ export function resolveRow(row: LookupRow, rule: Rule, date: string, warn: Warn 
     takesEffect: final === "not_yet_effective" ? rule.effective_date : null,
     fromLookup: true,
     downgraded,
+    governedBy: row.governed_by ?? null,
   };
 }
 
@@ -154,6 +156,7 @@ export function resolveAddress(address: Address, date: string, data: DataBundle,
       takesEffect: null,
       fromLookup: false,
       downgraded: false,
+      governedBy: null,
     });
   }
 
