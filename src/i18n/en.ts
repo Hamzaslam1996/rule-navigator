@@ -12,7 +12,7 @@ export const en = {
     title: "Which housing rules apply to this apartment?",
     lead: "Pick an address to see the rules in force on a chosen date, each with the exact source text it comes from.",
     label: "Apartment address",
-    placeholder: "Start typing a street or city…",
+    placeholder: "Street, city, ZIP or address ID",
     notFound: "This address is not in our dataset. Search by street, city, ZIP or address ID (for example A0016).",
     hint: "Use arrow keys to move through the list and Enter to open an address.",
     browse: "All addresses in our data",

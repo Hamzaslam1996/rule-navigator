@@ -14,7 +14,7 @@ export const es: Dict = {
     title: "¿Qué normas de vivienda aplican a este apartamento?",
     lead: "Elija una dirección para ver las normas vigentes en una fecha elegida, cada una con el texto exacto de su fuente.",
     label: "Dirección del apartamento",
-    placeholder: "Escriba una calle o ciudad…",
+    placeholder: "Calle, ciudad, código postal o ID de dirección",
     notFound: "Esta dirección no está en nuestros datos. Busque por calle, ciudad, código postal o ID de dirección (por ejemplo A0016).",
     hint: "Use las flechas para recorrer la lista y Enter para abrir una dirección.",
     browse: "Todas las direcciones de nuestros datos",
