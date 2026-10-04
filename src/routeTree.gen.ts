@@ -13,8 +13,10 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as AppRouteImport } from './routes/app'
 import { Route as AuditRouteImport } from './routes/audit'
+import { Route as AddressRouteImport } from './routes/address.'
 import { Route as AddressIdRouteImport } from './routes/address.$id'
 import { Route as AppIndexRouteImport } from './routes/app.index'
+import { Route as AppAddressRouteImport } from './routes/app.address.'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -36,6 +38,11 @@ const AuditRoute = AuditRouteImport.update({
   path: '/audit',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AddressRoute = AddressRouteImport.update({
+  id: '/address/',
+  path: '/address/',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AddressIdRoute = AddressIdRouteImport.update({
   id: '/address/$id',
   path: '/address/$id',
@@ -46,21 +53,30 @@ const AppIndexRoute = AppIndexRouteImport.update({
   path: '/',
   getParentRoute: () => AppRoute,
 } as any)
+const AppAddressRoute = AppAddressRouteImport.update({
+  id: '/address/',
+  path: '/address/',
+  getParentRoute: () => AppRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/app': typeof AppRouteWithChildren
   '/audit': typeof AuditRoute
+  '/address/': typeof AddressRoute
   '/address/$id': typeof AddressIdRoute
   '/app/': typeof AppIndexRoute
+  '/app/address/': typeof AppAddressRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/audit': typeof AuditRoute
+  '/address': typeof AddressRoute
   '/address/$id': typeof AddressIdRoute
   '/app': typeof AppIndexRoute
+  '/app/address': typeof AppAddressRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -68,15 +84,41 @@ export interface FileRoutesById {
   '/about': typeof AboutRoute
   '/app': typeof AppRouteWithChildren
   '/audit': typeof AuditRoute
+  '/address/': typeof AddressRoute
   '/address/$id': typeof AddressIdRoute
   '/app/': typeof AppIndexRoute
+  '/app/address/': typeof AppAddressRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about' | '/app' | '/audit' | '/address/$id' | '/app/'
+  fullPaths:
+    | '/'
+    | '/about'
+    | '/app'
+    | '/audit'
+    | '/address/'
+    | '/address/$id'
+    | '/app/'
+    | '/app/address/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/audit' | '/address/$id' | '/app'
-  id: '__root__' | '/' | '/about' | '/app' | '/audit' | '/address/$id' | '/app/'
+  to:
+    | '/'
+    | '/about'
+    | '/audit'
+    | '/address'
+    | '/address/$id'
+    | '/app'
+    | '/app/address'
+  id:
+    | '__root__'
+    | '/'
+    | '/about'
+    | '/app'
+    | '/audit'
+    | '/address/'
+    | '/address/$id'
+    | '/app/'
+    | '/app/address/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -84,6 +126,7 @@ export interface RootRouteChildren {
   AboutRoute: typeof AboutRoute
   AppRoute: typeof AppRouteWithChildren
   AuditRoute: typeof AuditRoute
+  AddressRoute: typeof AddressRoute
   AddressIdRoute: typeof AddressIdRoute
 }
 
@@ -117,6 +160,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuditRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/address/': {
+      id: '/address/'
+      path: '/address'
+      fullPath: '/address/'
+      preLoaderRoute: typeof AddressRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/address/$id': {
       id: '/address/$id'
       path: '/address/$id'
@@ -131,15 +181,24 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AppIndexRouteImport
       parentRoute: typeof AppRoute
     }
+    '/app/address/': {
+      id: '/app/address/'
+      path: '/address'
+      fullPath: '/app/address/'
+      preLoaderRoute: typeof AppAddressRouteImport
+      parentRoute: typeof AppRoute
+    }
   }
 }
 
 interface AppRouteChildren {
   AppIndexRoute: typeof AppIndexRoute
+  AppAddressRoute: typeof AppAddressRoute
 }
 
 const AppRouteChildren: AppRouteChildren = {
   AppIndexRoute: AppIndexRoute,
+  AppAddressRoute: AppAddressRoute,
 }
 
 const AppRouteWithChildren = AppRoute._addFileChildren(AppRouteChildren)
@@ -149,6 +208,7 @@ const rootRouteChildren: RootRouteChildren = {
   AboutRoute: AboutRoute,
   AppRoute: AppRouteWithChildren,
   AuditRoute: AuditRoute,
+  AddressRoute: AddressRoute,
   AddressIdRoute: AddressIdRoute,
 }
 export const routeTree = rootRouteImport
