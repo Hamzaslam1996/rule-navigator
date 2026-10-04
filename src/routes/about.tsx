@@ -4,9 +4,9 @@ import { useT } from "@/i18n";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About & method — Statute Street" },
+      { title: "About and method, Statute Street" },
       { name: "description", content: "How Statute Street produces results, what “Unknown” means, its limits, and how to report an error." },
-      { property: "og:title", content: "About & method — Statute Street" },
+      { property: "og:title", content: "About and method, Statute Street" },
       { property: "og:description", content: "How results are produced, what Unknown means, and the limits of the data." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },

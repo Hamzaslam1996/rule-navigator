@@ -6,9 +6,9 @@ import { useT } from "@/i18n";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Statute Street — Which housing rules apply to this apartment?" },
+      { title: "Statute Street: Which housing rules apply to this apartment?" },
       { name: "description", content: "Look up a rental address in CA, NJ or MA and see the housing rules in force on any date, each with a quoted source." },
-      { property: "og:title", content: "Statute Street — Which housing rules apply to this apartment?" },
+      { property: "og:title", content: "Statute Street: Which housing rules apply to this apartment?" },
       { property: "og:description", content: "Rental housing rules by address and date, each with a quoted source." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

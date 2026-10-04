@@ -62,10 +62,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Statute Street — Rental housing law navigator" },
+      { title: "Statute Street: Rental housing law navigator" },
       { name: "description", content: "See which rental housing rules apply to an address on a chosen date, each with a quoted source." },
       { name: "author", content: "Statute Street" },
-      { property: "og:title", content: "Statute Street — Rental housing law navigator" },
+      { property: "og:title", content: "Statute Street: Rental housing law navigator" },
       { property: "og:description", content: "See which rental housing rules apply to an address on a chosen date, each with a quoted source." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

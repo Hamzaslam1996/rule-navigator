@@ -16,9 +16,9 @@ export const Route = createFileRoute("/address/$id")({
     return { address };
   },
   head: ({ loaderData }) => {
-    if (!loaderData) return { meta: [{ title: "Address not found — Statute Street" }, { name: "robots", content: "noindex" }] };
+    if (!loaderData) return { meta: [{ title: "Address not found, Statute Street" }, { name: "robots", content: "noindex" }] };
     const a = loaderData.address;
-    const title = `${a.street_address}, ${a.postal_city} ${a.state} — Statute Street`;
+    const title = `${a.street_address}, ${a.postal_city} ${a.state}, Statute Street`;
     const desc = `Housing rules that apply to ${a.street_address}, ${a.postal_city}, ${a.state}, with quoted sources and dates.`;
     return {
       meta: [
@@ -74,7 +74,7 @@ function AddressPage() {
           </span>
           <ChevronRight className="h-4 w-4 text-muted-foreground" aria-hidden />
           <span className="rounded-md border border-primary px-2.5 py-1 text-sm font-semibold text-primary">
-            {t.address.city}: {stack.city ?? "—"}
+            {t.address.city}: {stack.city ?? "not resolved"}
           </span>
           {stack.inferred && (
             <span className="rounded-full border border-status-unknown/40 bg-status-unknown-tint px-2.5 py-0.5 text-xs text-status-unknown">

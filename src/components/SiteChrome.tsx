@@ -22,7 +22,7 @@ export function SiteHeader() {
   return (
     <header className="border-b border-border">
       <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-4">
-        <Link to="/" className="street-sign" aria-label="Statute Street — home">
+        <Link to="/" className="street-sign" aria-label="Statute Street, home">
           Statute Street
         </Link>
         <nav aria-label="Main" className="flex flex-wrap items-center gap-1">

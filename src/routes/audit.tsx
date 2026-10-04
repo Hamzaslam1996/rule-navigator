@@ -8,9 +8,9 @@ import { useLang } from "@/i18n";
 export const Route = createFileRoute("/audit")({
   head: () => ({
     meta: [
-      { title: "Audit log — Statute Street" },
+      { title: "Audit log, Statute Street" },
       { name: "description", content: "Every source document behind Statute Street's rules, with retrieval dates and SHA-256 fingerprints." },
-      { property: "og:title", content: "Audit log — Statute Street" },
+      { property: "og:title", content: "Audit log, Statute Street" },
       { property: "og:description", content: "Source documents, retrieval dates and fingerprints behind every rule." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
@@ -112,7 +112,7 @@ function AuditPage() {
                       </span>
                     )}
                   </td>
-                  <td className="px-3 py-2 font-mono text-xs">{rules.map((r) => r.team_rule_id).join(", ") || "—"}</td>
+                  <td className="px-3 py-2 font-mono text-xs">{rules.map((r) => r.team_rule_id).join(", ") || "none"}</td>
                 </tr>
               );
             })}
