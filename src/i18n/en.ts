@@ -7,13 +7,13 @@ export const en = {
   listen: "Listen",
   footer: "Statute Street · Data as of a fixed date · Not legal advice",
   home: {
-    noData: 'Engine output not loaded yet — no addresses available.',
+    noData: 'Engine output not loaded yet. No addresses available.',
     eyebrow: "Rental housing law navigator",
     title: "Which housing rules apply to this apartment?",
-    lead: "Pick an address to see the rules in force on a chosen date — each with the exact source text it comes from.",
+    lead: "Pick an address to see the rules in force on a chosen date, each with the exact source text it comes from.",
     label: "Apartment address",
     placeholder: "Start typing a street or city…",
-    notFound: "We don't have this address yet. We show no result rather than guess.",
+    notFound: "This address is not in our dataset. Search by street, city, ZIP or address ID (for example A0016).",
     hint: "Use arrow keys to move through the list and Enter to open an address.",
     browse: "All addresses in our data",
     scope: "Covers California, New Jersey and Massachusetts: Los Angeles, San Francisco, San Diego, Berkeley, Jersey City, Hoboken, Newark, Boston, Cambridge.",
@@ -29,7 +29,7 @@ export const en = {
   },
   badges: {
     applies: "Applies",
-    unknown: "Unknown — missing fact",
+    unknown: "Unknown: missing fact",
     superseded: "Superseded by local law",
     not_yet_effective: "Not yet effective",
     pending: "Pending bill",
@@ -42,7 +42,7 @@ export const en = {
     stack: "Jurisdiction",
     state: "State",
     city: "City",
-    cityInferred: "City inferred from mailing address — confirm",
+    cityInferred: "City inferred from mailing address. Please confirm.",
     yearBuilt: "Year built",
     units: "Units",
     notInRecords: "not in records",
@@ -65,7 +65,7 @@ export const en = {
     exemptions: "Exemptions",
     noneListed: "None listed",
     evidence: "Evidence",
-    quoteMissing: "No quoted text recorded — open the source to check.",
+    quoteMissing: "No quoted text recorded. Open the source to check.",
     citation: "Citation",
     openSource: "Open source",
     newTab: "(opens in a new tab)",
@@ -75,13 +75,13 @@ export const en = {
     confidence: {
       high: (v: string) => `High confidence (${v})`,
       medium: (v: string) => `Medium confidence (${v})`,
-      low: (v: string) => `Low confidence (${v}) — check the source`,
+      low: (v: string) => `Low confidence (${v}). Check the source.`,
     },
     takesEffect: (d: string) => `Takes effect ${d}`,
     reviewNote: "Why it needs review",
     reviewHidden: 'Flagged by our team for a second look.',
     notFoundTitle: "Address not found",
-    notFoundBody: "We don't have this address yet. We show no result rather than guess.",
+    notFoundBody: "This address is not in our dataset. Search by street, city, ZIP or address ID (for example A0016).",
   },
   changes: {
     title: "What's changing",
@@ -115,7 +115,7 @@ export const en = {
     sections: [
       {
         h: "How results are produced",
-        p: "A research team read statutes, ordinances and official pages for three states and nine cities and recorded each rule with a quoted passage. Each address was checked against those rules for a fixed dataset date. When you move the date, we only adjust for when a rule takes effect — we never invent new results.",
+        p: "Our system read statutes, ordinances and official pages for three states and nine cities and recorded each rule with a verbatim quoted passage, reviewed by a lawyer. Each address was checked against those rules for a fixed dataset date. When you move the date, we only adjust for when a rule takes effect. We never invent new results.",
       },
       {
         h: "State and city",
@@ -123,7 +123,7 @@ export const en = {
       },
       {
         h: "What “Unknown” means",
-        p: "Unknown means a fact needed to decide is missing — for example, the year the building was built or how many units it has. We tell you which fact is missing instead of guessing.",
+        p: "Unknown means a fact needed to decide is missing, for example the year the building was built or how many units it has. We tell you which fact is missing.",
       },
       {
         h: "Needs human review",

@@ -22,7 +22,7 @@ export function AddressCombobox({ addresses }: { addresses: Address[] }) {
     if (!n) return addresses;
     const parts = n.split(" ");
     return addresses.filter((a) => {
-      const hay = norm(`${a.street_address} ${a.postal_city} ${a.state} ${a.zip}`);
+      const hay = norm(`${a.address_id} ${a.street_address} ${a.postal_city} ${a.legal_city} ${a.state} ${a.zip}`);
       return parts.every((p) => hay.includes(p));
     });
   }, [q, addresses]);

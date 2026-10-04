@@ -15,7 +15,7 @@ export const es: Dict = {
     lead: "Elija una dirección para ver las normas vigentes en una fecha elegida, cada una con el texto exacto de su fuente.",
     label: "Dirección del apartamento",
     placeholder: "Escriba una calle o ciudad…",
-    notFound: "Todavía no tenemos esta dirección. Preferimos no mostrar un resultado antes que adivinar.",
+    notFound: "Esta dirección no está en nuestros datos. Busque por calle, ciudad, código postal o ID de dirección (por ejemplo A0016).",
     hint: "Use las flechas para recorrer la lista y Enter para abrir una dirección.",
     browse: "Todas las direcciones de nuestros datos",
     scope: "Cubre California, Nueva Jersey y Massachusetts: Los Ángeles, San Francisco, San Diego, Berkeley, Jersey City, Hoboken, Newark, Boston y Cambridge.",
@@ -31,7 +31,7 @@ export const es: Dict = {
   },
   badges: {
     applies: "Aplica",
-    unknown: "Desconocido — falta un dato",
+    unknown: "Desconocido: falta un dato",
     superseded: "Reemplazada por ley local",
     not_yet_effective: "Aún no vigente",
     pending: "Proyecto de ley pendiente",
@@ -44,7 +44,7 @@ export const es: Dict = {
     stack: "Jurisdicción",
     state: "Estado",
     city: "Ciudad",
-    cityInferred: "Ciudad deducida de la dirección postal — confirme",
+    cityInferred: "Ciudad deducida de la dirección postal. Confírmela.",
     yearBuilt: "Año de construcción",
     units: "Unidades",
     notInRecords: "no consta en registros",
@@ -67,7 +67,7 @@ export const es: Dict = {
     exemptions: "Excepciones",
     noneListed: "Ninguna indicada",
     evidence: "Evidencia",
-    quoteMissing: "No se registró texto citado — abra la fuente para comprobarlo.",
+    quoteMissing: "No se registró texto citado. Abra la fuente para comprobarlo.",
     citation: "Cita",
     openSource: "Abrir fuente",
     newTab: "(se abre en una pestaña nueva)",
@@ -77,13 +77,13 @@ export const es: Dict = {
     confidence: {
       high: (v: string) => `Confianza alta (${v})`,
       medium: (v: string) => `Confianza media (${v})`,
-      low: (v: string) => `Confianza baja (${v}) — revise la fuente`,
+      low: (v: string) => `Confianza baja (${v}). Revise la fuente.`,
     },
     takesEffect: (d: string) => `Entra en vigor: ${d}`,
     reviewNote: "Por qué requiere revisión",
     reviewHidden: 'Marcado por nuestro equipo para una segunda revisión.',
     notFoundTitle: "Dirección no encontrada",
-    notFoundBody: "Todavía no tenemos esta dirección. Preferimos no mostrar un resultado antes que adivinar.",
+    notFoundBody: "Esta dirección no está en nuestros datos. Busque por calle, ciudad, código postal o ID de dirección (por ejemplo A0016).",
   },
   changes: {
     title: "Qué está cambiando",
@@ -117,7 +117,7 @@ export const es: Dict = {
     sections: [
       {
         h: "Cómo se producen los resultados",
-        p: "Un equipo leyó leyes, ordenanzas y páginas oficiales de tres estados y nueve ciudades y registró cada norma con un pasaje citado. Cada dirección se comparó con esas normas para una fecha fija. Al mover la fecha solo ajustamos según cuándo entra en vigor una norma; nunca inventamos resultados nuevos.",
+        p: "Nuestro sistema leyó leyes, ordenanzas y páginas oficiales de tres estados y nueve ciudades y registró cada norma con un pasaje citado textualmente, revisado por un abogado. Cada dirección se comparó con esas normas para una fecha fija. Al mover la fecha solo ajustamos según cuándo entra en vigor una norma; nunca inventamos resultados nuevos.",
       },
       {
         h: "Estado y ciudad",
@@ -125,7 +125,7 @@ export const es: Dict = {
       },
       {
         h: "Qué significa “Desconocido”",
-        p: "Desconocido significa que falta un dato necesario para decidir, por ejemplo el año de construcción o el número de unidades. Indicamos qué dato falta en lugar de adivinar.",
+        p: "Desconocido significa que falta un dato necesario para decidir, por ejemplo el año de construcción o el número de unidades. Indicamos qué dato falta.",
       },
       {
         h: "Requiere revisión humana",
