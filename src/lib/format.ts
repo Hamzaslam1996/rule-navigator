@@ -1,7 +1,7 @@
 import type { Lang } from "@/i18n";
 import { isMonthPrecision, normDate } from "./resolve";
 
-const locale = (lang: Lang) => (lang === "es" ? "es-US" : "en-US");
+const locale = (lang: Lang) => (lang === "es" ? "es-ES" : "en-GB");
 
 /** Formats YYYY-MM-DD as a full date and YYYY-MM as "June 2025". */
 export function formatDate(s: string | null | undefined, lang: Lang): string {
