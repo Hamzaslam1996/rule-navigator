@@ -7,12 +7,13 @@ import { cn } from "@/lib/utils";
 
 const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 
-export function AddressCombobox({ addresses, target = "legacy" }: { addresses: Address[]; target?: "legacy" | "workspace" }) {
+export function AddressCombobox({ addresses, target = "legacy", onSelect, selectedId }: { addresses: Address[]; target?: "legacy" | "workspace" | "select"; onSelect?: (address: Address) => void; selectedId?: string }) {
   const t = useT();
   const navigate = useNavigate();
   const id = useId();
   const listId = `${id}-list`;
-  const [q, setQ] = useState("");
+  const selected = addresses.find((address) => address.address_id === selectedId);
+  const [q, setQ] = useState(selected ? `${selected.street_address}, ${selected.postal_city}` : "");
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(0);
   const blurTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -28,9 +29,14 @@ export function AddressCombobox({ addresses, target = "legacy" }: { addresses: A
   }, [q, addresses]);
 
   const noMatch = q.trim().length > 0 && matches.length === 0;
-  const go = (a: Address) => target === "workspace"
-    ? navigate({ to: "/app/address/$id", params: { id: a.address_id }, search: { asof: "2026-10-01" } })
-    : navigate({ to: "/address/$id", params: { id: a.address_id } });
+  const go = (a: Address) => {
+    setQ(`${a.street_address}, ${a.postal_city}`);
+    setOpen(false);
+    if (target === "select") return onSelect?.(a);
+    return target === "workspace"
+      ? navigate({ to: "/app/address/$id", params: { id: a.address_id }, search: { asof: "2026-10-01" } })
+      : navigate({ to: "/address/$id", params: { id: a.address_id } });
+  };
 
   const onKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "ArrowDown") {
