@@ -314,7 +314,10 @@ export const en = {
       measure: "These figures measure our engine against an independently built key that applies the same reviewed legal rulings; the organisers' hidden key is the real test.",
       english: "Quotes and citations are shown in English in both languages.",
       repositories: "Public GitHub repositories",
-      placeholder: "Links will appear when the repositories are public.",
+      links: [
+        { label: "Engine and method", url: "https://github.com/Hamzaslam1996/statute-street" },
+        { label: "Interface", url: "https://github.com/Hamzaslam1996/rule-navigator" },
+      ],
     },
     search: { title: "Find address" },
     modal: {

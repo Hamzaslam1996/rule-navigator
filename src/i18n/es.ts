@@ -316,7 +316,10 @@ export const es: Dict = {
       measure: "Estas cifras miden nuestro motor contra una clave construida de forma independiente que aplica las mismas decisiones legales revisadas; la clave oculta de los organizadores es la prueba real.",
       english: "Las citas y referencias aparecen en inglés en ambos idiomas.",
       repositories: "Repositorios públicos de GitHub",
-      placeholder: "Los enlaces aparecerán cuando los repositorios sean públicos.",
+      links: [
+        { label: "Motor y método", url: "https://github.com/Hamzaslam1996/statute-street" },
+        { label: "Interfaz", url: "https://github.com/Hamzaslam1996/rule-navigator" },
+      ],
     },
     search: { title: "Buscar dirección" },
     modal: {

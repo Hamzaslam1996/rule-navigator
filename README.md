@@ -11,7 +11,7 @@ npm i
 npm run dev
 ```
 
-Built with TanStack Start, React, TypeScript, Tailwind; interface built with Lovable.
+Built with TanStack Start, React, TypeScript and Tailwind; interface built with Lovable.
 
 ## Swapping in real back-end data
 
