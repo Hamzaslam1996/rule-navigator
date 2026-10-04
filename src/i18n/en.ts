@@ -155,7 +155,7 @@ export const en = {
       problem: "The problem",
       problems: [
         { h: "Wrong actions", p: "A rent increase above a local cap, a banned screening question, a fee where none is allowed." },
-        { h: "Algorithm exposure", p: "Nine jurisdictions in our corpus now restrict rent setting software, building by building." },
+        { h: "Algorithm exposure", p: "Eight jurisdictions in our corpus have enacted limits on rent setting software; three more measures are pending." },
         { h: "No audit trail", p: "Nobody can show which rule applied at an address on a date, and from which text." },
       ],
       loop: "The loop",

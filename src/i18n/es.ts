@@ -157,7 +157,7 @@ export const es: Dict = {
       problem: "El problema",
       problems: [
         { h: "Acciones incorrectas", p: "Un aumento por encima del límite local, una pregunta de evaluación prohibida o una cuota no permitida." },
-        { h: "Exposición algorítmica", p: "Nueve jurisdicciones de nuestro corpus ya restringen el software para fijar rentas, edificio por edificio." },
+        { h: "Exposición algorítmica", p: "Ocho jurisdicciones de nuestro corpus han aprobado límites al software para fijar rentas; otras tres medidas están pendientes." },
         { h: "Sin registro de auditoría", p: "Nadie puede mostrar qué norma aplicaba a una dirección en una fecha y desde qué texto." },
       ],
       loop: "El ciclo",
