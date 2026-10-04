@@ -19,6 +19,7 @@ import { Route as AppIndexRouteImport } from './routes/app.index'
 import { Route as AppChangesRouteImport } from './routes/app.changes'
 import { Route as AppCheckRouteImport } from './routes/app.check'
 import { Route as AppEvidenceRouteImport } from './routes/app.evidence'
+import { Route as AppMethodRouteImport } from './routes/app.method'
 import { Route as AppReviewRouteImport } from './routes/app.review'
 import { Route as AppAddressRouteImport } from './routes/app.address.'
 import { Route as AppNoticeRouteImport } from './routes/app.notice.'
@@ -74,6 +75,11 @@ const AppEvidenceRoute = AppEvidenceRouteImport.update({
   path: '/evidence',
   getParentRoute: () => AppRoute,
 } as any)
+const AppMethodRoute = AppMethodRouteImport.update({
+  id: '/method',
+  path: '/method',
+  getParentRoute: () => AppRoute,
+} as any)
 const AppReviewRoute = AppReviewRouteImport.update({
   id: '/review',
   path: '/review',
@@ -105,6 +111,7 @@ export interface FileRoutesByFullPath {
   '/app/changes': typeof AppChangesRoute
   '/app/check': typeof AppCheckRoute
   '/app/evidence': typeof AppEvidenceRoute
+  '/app/method': typeof AppMethodRoute
   '/app/review': typeof AppReviewRoute
   '/app/': typeof AppIndexRoute
   '/app/address/': typeof AppAddressRoute
@@ -120,6 +127,7 @@ export interface FileRoutesByTo {
   '/app/changes': typeof AppChangesRoute
   '/app/check': typeof AppCheckRoute
   '/app/evidence': typeof AppEvidenceRoute
+  '/app/method': typeof AppMethodRoute
   '/app/review': typeof AppReviewRoute
   '/app': typeof AppIndexRoute
   '/app/address': typeof AppAddressRoute
@@ -137,6 +145,7 @@ export interface FileRoutesById {
   '/app/changes': typeof AppChangesRoute
   '/app/check': typeof AppCheckRoute
   '/app/evidence': typeof AppEvidenceRoute
+  '/app/method': typeof AppMethodRoute
   '/app/review': typeof AppReviewRoute
   '/app/': typeof AppIndexRoute
   '/app/address/': typeof AppAddressRoute
@@ -155,6 +164,7 @@ export interface FileRouteTypes {
     | '/app/changes'
     | '/app/check'
     | '/app/evidence'
+    | '/app/method'
     | '/app/review'
     | '/app/'
     | '/app/address/'
@@ -170,6 +180,7 @@ export interface FileRouteTypes {
     | '/app/changes'
     | '/app/check'
     | '/app/evidence'
+    | '/app/method'
     | '/app/review'
     | '/app'
     | '/app/address'
@@ -186,6 +197,7 @@ export interface FileRouteTypes {
     | '/app/changes'
     | '/app/check'
     | '/app/evidence'
+    | '/app/method'
     | '/app/review'
     | '/app/'
     | '/app/address/'
@@ -274,6 +286,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AppEvidenceRouteImport
       parentRoute: typeof AppRoute
     }
+    '/app/method': {
+      id: '/app/method'
+      path: '/method'
+      fullPath: '/app/method'
+      preLoaderRoute: typeof AppMethodRouteImport
+      parentRoute: typeof AppRoute
+    }
     '/app/review': {
       id: '/app/review'
       path: '/review'
@@ -309,6 +328,7 @@ interface AppRouteChildren {
   AppChangesRoute: typeof AppChangesRoute
   AppCheckRoute: typeof AppCheckRoute
   AppEvidenceRoute: typeof AppEvidenceRoute
+  AppMethodRoute: typeof AppMethodRoute
   AppReviewRoute: typeof AppReviewRoute
   AppIndexRoute: typeof AppIndexRoute
   AppAddressRoute: typeof AppAddressRoute
@@ -320,6 +340,7 @@ const AppRouteChildren: AppRouteChildren = {
   AppChangesRoute: AppChangesRoute,
   AppCheckRoute: AppCheckRoute,
   AppEvidenceRoute: AppEvidenceRoute,
+  AppMethodRoute: AppMethodRoute,
   AppReviewRoute: AppReviewRoute,
   AppIndexRoute: AppIndexRoute,
   AppAddressRoute: AppAddressRoute,
