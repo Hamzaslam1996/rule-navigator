@@ -16,7 +16,10 @@ import { Route as AuditRouteImport } from './routes/audit'
 import { Route as AddressRouteImport } from './routes/address.'
 import { Route as AddressIdRouteImport } from './routes/address.$id'
 import { Route as AppIndexRouteImport } from './routes/app.index'
+import { Route as AppCheckRouteImport } from './routes/app.check'
 import { Route as AppAddressRouteImport } from './routes/app.address.'
+import { Route as AppNoticeRouteImport } from './routes/app.notice.'
+import { Route as AppRecordRouteImport } from './routes/app.record.'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -53,9 +56,24 @@ const AppIndexRoute = AppIndexRouteImport.update({
   path: '/',
   getParentRoute: () => AppRoute,
 } as any)
+const AppCheckRoute = AppCheckRouteImport.update({
+  id: '/check',
+  path: '/check',
+  getParentRoute: () => AppRoute,
+} as any)
 const AppAddressRoute = AppAddressRouteImport.update({
   id: '/address/',
   path: '/address/',
+  getParentRoute: () => AppRoute,
+} as any)
+const AppNoticeRoute = AppNoticeRouteImport.update({
+  id: '/notice/',
+  path: '/notice/',
+  getParentRoute: () => AppRoute,
+} as any)
+const AppRecordRoute = AppRecordRouteImport.update({
+  id: '/record/',
+  path: '/record/',
   getParentRoute: () => AppRoute,
 } as any)
 
@@ -66,8 +84,11 @@ export interface FileRoutesByFullPath {
   '/audit': typeof AuditRoute
   '/address/': typeof AddressRoute
   '/address/$id': typeof AddressIdRoute
+  '/app/check': typeof AppCheckRoute
   '/app/': typeof AppIndexRoute
   '/app/address/': typeof AppAddressRoute
+  '/app/notice/': typeof AppNoticeRoute
+  '/app/record/': typeof AppRecordRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -75,8 +96,11 @@ export interface FileRoutesByTo {
   '/audit': typeof AuditRoute
   '/address': typeof AddressRoute
   '/address/$id': typeof AddressIdRoute
+  '/app/check': typeof AppCheckRoute
   '/app': typeof AppIndexRoute
   '/app/address': typeof AppAddressRoute
+  '/app/notice': typeof AppNoticeRoute
+  '/app/record': typeof AppRecordRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -86,8 +110,11 @@ export interface FileRoutesById {
   '/audit': typeof AuditRoute
   '/address/': typeof AddressRoute
   '/address/$id': typeof AddressIdRoute
+  '/app/check': typeof AppCheckRoute
   '/app/': typeof AppIndexRoute
   '/app/address/': typeof AppAddressRoute
+  '/app/notice/': typeof AppNoticeRoute
+  '/app/record/': typeof AppRecordRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -98,8 +125,11 @@ export interface FileRouteTypes {
     | '/audit'
     | '/address/'
     | '/address/$id'
+    | '/app/check'
     | '/app/'
     | '/app/address/'
+    | '/app/notice/'
+    | '/app/record/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -107,8 +137,11 @@ export interface FileRouteTypes {
     | '/audit'
     | '/address'
     | '/address/$id'
+    | '/app/check'
     | '/app'
     | '/app/address'
+    | '/app/notice'
+    | '/app/record'
   id:
     | '__root__'
     | '/'
@@ -117,8 +150,11 @@ export interface FileRouteTypes {
     | '/audit'
     | '/address/'
     | '/address/$id'
+    | '/app/check'
     | '/app/'
     | '/app/address/'
+    | '/app/notice/'
+    | '/app/record/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -181,6 +217,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AppIndexRouteImport
       parentRoute: typeof AppRoute
     }
+    '/app/check': {
+      id: '/app/check'
+      path: '/check'
+      fullPath: '/app/check'
+      preLoaderRoute: typeof AppCheckRouteImport
+      parentRoute: typeof AppRoute
+    }
     '/app/address/': {
       id: '/app/address/'
       path: '/address'
@@ -188,17 +231,37 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AppAddressRouteImport
       parentRoute: typeof AppRoute
     }
+    '/app/notice/': {
+      id: '/app/notice/'
+      path: '/notice'
+      fullPath: '/app/notice/'
+      preLoaderRoute: typeof AppNoticeRouteImport
+      parentRoute: typeof AppRoute
+    }
+    '/app/record/': {
+      id: '/app/record/'
+      path: '/record'
+      fullPath: '/app/record/'
+      preLoaderRoute: typeof AppRecordRouteImport
+      parentRoute: typeof AppRoute
+    }
   }
 }
 
 interface AppRouteChildren {
+  AppCheckRoute: typeof AppCheckRoute
   AppIndexRoute: typeof AppIndexRoute
   AppAddressRoute: typeof AppAddressRoute
+  AppNoticeRoute: typeof AppNoticeRoute
+  AppRecordRoute: typeof AppRecordRoute
 }
 
 const AppRouteChildren: AppRouteChildren = {
+  AppCheckRoute: AppCheckRoute,
   AppIndexRoute: AppIndexRoute,
   AppAddressRoute: AppAddressRoute,
+  AppNoticeRoute: AppNoticeRoute,
+  AppRecordRoute: AppRecordRoute,
 }
 
 const AppRouteWithChildren = AppRoute._addFileChildren(AppRouteChildren)
