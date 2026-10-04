@@ -4,6 +4,6 @@
 - [x] Vitest tests on real data (resolve.test.ts)
 - [x] App name "Statute Street" in all meta
 
-- [ ] Implement DESIGN_BRIEF v2 public door and workspace
-- [ ] Add full bilingual v2 UI copy
+- [x] Implement DESIGN_BRIEF v2 public door and workspace
+- [x] Add full bilingual v2 UI copy
 - [ ] Verify tests, preview, and mobile layouts
