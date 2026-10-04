@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 
 const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 
-export function AddressCombobox({ addresses }: { addresses: Address[] }) {
+export function AddressCombobox({ addresses, target = "legacy" }: { addresses: Address[]; target?: "legacy" | "workspace" }) {
   const t = useT();
   const navigate = useNavigate();
   const id = useId();
@@ -28,7 +28,9 @@ export function AddressCombobox({ addresses }: { addresses: Address[] }) {
   }, [q, addresses]);
 
   const noMatch = q.trim().length > 0 && matches.length === 0;
-  const go = (a: Address) => navigate({ to: "/address/$id", params: { id: a.address_id } });
+  const go = (a: Address) => target === "workspace"
+    ? navigate({ to: "/app/address/$id", params: { id: a.address_id }, search: { asof: "2026-10-01" } })
+    : navigate({ to: "/address/$id", params: { id: a.address_id } });
 
   const onKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "ArrowDown") {
