@@ -64,3 +64,10 @@ Every key in lookups.json should have a matching `address_id` here.
 
 ## Note filter (UI)
 Any `conflict_note`, lookup `explanation` or change `notes` text that starts with "Decided by" or contains a "(Q<number>" id is hidden; the review badge still shows.
+
+## Optional fields added 4 Oct 2026 (rulings_12)
+- rules.json: `key_value_short` (string, at most 70 characters, operator facing one line per positive rule; negative findings carry "No city rule; state law applies" or "No state rule"), `requirement_es` (Spanish summary).
+- lookups.json rows: `governed_by` (team_rule_id of the governing rule on superseded rows), `assumptions` (array of strings: the exemptions presumed not to apply).
+- addresses.json: `use_description`, `legal_city`, `legal_state`, `jurisdiction_method`.
+- change_register.json: `{ "changes": [ { test_id, title, instrument, jurisdiction, enacted, effective, status, summary, addresses_affected, review_needed } ] }`; display rows for the five change tests, counts computed from changes.json.
+- meta.json: `rules_version`, `engine_commit`, `rules`, `rules_in_force`, `negative_findings`, `addresses`, `as_of`, `generated_at`.
