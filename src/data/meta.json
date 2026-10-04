@@ -1,8 +1,10 @@
 {
  "rules_version": "1.0",
- "engine_commit": "3054605",
+ "engine_commit": "6942632",
  "rules": 94,
+ "rules_in_force": 64,
+ "negative_findings": 30,
  "addresses": 500,
  "as_of": "2026-10-01",
- "generated_at": "2026-10-04T00:30:29Z"
+ "generated_at": "2026-10-04T03:39:24Z"
 }
