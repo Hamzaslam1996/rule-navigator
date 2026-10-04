@@ -16,12 +16,12 @@ export const useAsOf = () => useContext(AsOfContext);
 
 const nav = [
   { to: "/app", key: "portfolio", icon: Building2, exact: true },
-  { to: "/app/search", key: "search", icon: MapPin },
-  { to: "/app/check", key: "action", icon: ClipboardCheck },
-  { to: "/app/changes", key: "changes", icon: BellRing },
-  { to: "/app/review", key: "review", icon: ListChecks },
-  { to: "/app/evidence", key: "evidence", icon: FileSearch },
-  { to: "/app/method", key: "method", icon: BookOpen },
+  { to: "/app/search", key: "search", icon: MapPin, exact: false },
+  { to: "/app/check", key: "action", icon: ClipboardCheck, exact: false },
+  { to: "/app/changes", key: "changes", icon: BellRing, exact: false },
+  { to: "/app/review", key: "review", icon: ListChecks, exact: false },
+  { to: "/app/evidence", key: "evidence", icon: FileSearch, exact: false },
+  { to: "/app/method", key: "method", icon: BookOpen, exact: false },
 ] as const;
 
 export function WorkspaceShell() {

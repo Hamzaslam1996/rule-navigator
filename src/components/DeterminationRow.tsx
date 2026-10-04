@@ -19,7 +19,7 @@ export function DeterminationRow({ item, address, changed = false }: { item: Res
   const review = hideInternalNote(rule.conflict_note) ?? (item.review ? t.address.reviewHidden : null);
   const appliesUnless = item.badge === "applies" && Boolean(explanation?.toLowerCase().startsWith("applies unless"));
   const keyValue = rule.key_value_short || shortValue(rule.key_value);
-  const governedRule = getRule(item.governedBy);
+  const governedRule = item.governedBy ? getRule(item.governedBy) : undefined;
   const sourceRecord = sourcesRaw.sources.find((entry) => entry.source_id === source?.source_id);
   const basisKey = sourceRecord?.evidence_basis;
   const basis = basisKey === "supplied_corpus" ? t.v2.determination.supplied : basisKey === "link_only_capture" ? t.v2.determination.official : t.v2.determination.primary;
