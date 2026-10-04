@@ -1,6 +1,6 @@
 import { createContext, useContext, useMemo, useState } from "react";
 import { Link, Outlet, useNavigate, useSearch } from "@tanstack/react-router";
-import { AddressBook, BellRing, BookOpen, Building2, ClipboardCheck, FileSearch, FileText, ListChecks, Menu, X } from "lucide-react";
+import { MapPin, BellRing, BookOpen, Building2, ClipboardCheck, FileSearch, FileText, ListChecks, Menu, X } from "lucide-react";
 import { getAddresses, getRules, lookupsAsOf } from "@/data";
 import { useLang } from "@/i18n";
 import { Button } from "./ui/button";
@@ -11,7 +11,7 @@ import { appMeta } from "@/lib/meta";
 
 const AsOfContext = createContext({ date: lookupsAsOf, setDate: (_d: string) => {} });
 export const useAsOf = () => useContext(AsOfContext);
-const icons = [Building2, AddressBook, ClipboardCheck, BellRing, ListChecks, FileSearch, FileText, BookOpen];
+const icons = [Building2, MapPin, ClipboardCheck, BellRing, ListChecks, FileSearch, FileText, BookOpen];
 const paths = ["/app", "/app/check", "/app/check", "/app/changes", "/app/review", "/app/evidence", "/app", "/app/method"] as const;
 export function WorkspaceShell() {
   const { t, lang } = useLang();
