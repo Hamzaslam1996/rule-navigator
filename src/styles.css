@@ -125,6 +125,27 @@
   }
 }
 
+@keyframes status-pulse {
+  0%, 100% { background-color: transparent; }
+  45% { background-color: var(--color-status-future-tint); }
+}
+
+@utility status-pulse {
+  animation: status-pulse 300ms ease-out 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .status-pulse { animation: none; }
+}
+
+@media print {
+  @page { size: A4; margin: 18mm; }
+  .no-print { display: none !important; }
+  .print-document { max-width: none !important; padding: 0 !important; font-family: var(--font-serif); }
+  .print-document details > * { display: block !important; }
+  body { background: var(--color-card); }
+}
+
 @utility street-sign {
   display: inline-flex;
   align-items: center;

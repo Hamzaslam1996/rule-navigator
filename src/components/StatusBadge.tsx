@@ -16,11 +16,11 @@ const styles: Record<BadgeKind, { icon: LucideIcon; cls: string }> = {
   review: { icon: AlertTriangle, cls: "bg-status-review-tint text-status-review border-status-review/40" },
 };
 
-export function StatusBadge({ kind, className }: { kind: BadgeKind; className?: string }) {
+export function StatusBadge({ kind, className, outline = false }: { kind: BadgeKind; className?: string; outline?: boolean }) {
   const t = useT();
   const { icon: Icon, cls } = styles[kind];
   return (
-    <span className={cn("inline-flex items-center gap-1.5 rounded-full border px-2.5 py-0.5 text-sm font-medium", cls, className)}>
+    <span className={cn("inline-flex items-center gap-1.5 rounded-full border px-2 py-0.5 text-xs font-medium", cls, outline && "bg-transparent", className)}>
       <Icon className="h-4 w-4 shrink-0" aria-hidden />
       {t.badges[kind]}
     </span>
