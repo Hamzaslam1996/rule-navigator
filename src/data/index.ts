@@ -36,6 +36,7 @@ export const ruleSchema = z.object({
   status: z.enum(["in_force", "not_yet_effective", "pending", "failed"]),
   title: z.string().min(1),
   requirement: z.string().min(1),
+  requirement_es: nstr.optional(),
   key_value: nstr,
   coverage_conditions: nstr,
   exemptions: nstr,
