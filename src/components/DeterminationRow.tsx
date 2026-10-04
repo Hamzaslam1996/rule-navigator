@@ -1,6 +1,7 @@
 import { ExternalLink } from "lucide-react";
 import type { Address } from "@/data";
-import { getEvidenceBasis, getRule, getSourceByUrl, getSources } from "@/data";
+import { getRule, getSourceByUrl, getSources } from "@/data";
+import sourcesRaw from "@/data/sources.json";
 import type { ResolvedItem } from "@/lib/resolve";
 import { missingFacts } from "@/lib/resolve";
 import { fingerprint, formatTimestamp, hideInternalNote } from "@/lib/format";
@@ -19,7 +20,9 @@ export function DeterminationRow({ item, address, changed = false }: { item: Res
   const appliesUnless = item.badge === "applies" && Boolean(explanation?.toLowerCase().startsWith("applies unless"));
   const keyValue = rule.key_value_short || shortValue(rule.key_value);
   const governedRule = getRule(item.governedBy);
-  const basis = getEvidenceBasis(source?.source_id) ?? "Primary text";
+  const sourceRecord = sourcesRaw.sources.find((entry) => entry.source_id === source?.source_id);
+  const basisKey = sourceRecord?.evidence_basis;
+  const basis = basisKey === "supplied_corpus" ? t.v2.determination.supplied : basisKey === "link_only_capture" ? t.v2.determination.official : t.v2.determination.primary;
   const openGoverned = () => {
     if (!governedRule) return;
     const target = document.getElementById(`rule-${governedRule.team_rule_id}`);

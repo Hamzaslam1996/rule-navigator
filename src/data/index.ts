@@ -8,7 +8,6 @@ import lookupsRaw from "./lookups.json";
 import changesRaw from "./changes.json";
 import addressesRaw from "./addresses.json";
 import sourcesRaw from "./sources.json";
-import changeRegisterRaw from "./change_register.json";
 
 export const CATEGORIES = [
   "rent_increase_limits",
@@ -114,19 +113,6 @@ export interface DataBundle {
   issues: DataIssue[];
 }
 
-const changeRegisterRowSchema = z.object({
-  test_id: z.string(),
-  title: z.string(),
-  instrument: z.string(),
-  jurisdiction: z.string(),
-  enacted: z.string(),
-  effective: z.string(),
-  status: z.enum(["in_force", "not_yet_effective", "pending", "failed"]),
-  summary: z.string(),
-  addresses_affected: z.number(),
-  review_needed: z.number(),
-});
-export type ChangeRegisterRow = z.infer<typeof changeRegisterRowSchema>;
 
 export interface RawData {
   rules: unknown;
@@ -251,23 +237,6 @@ export const getRule = (id: string) => data.rulesById.get(id);
 export const getLookups = (id: string) => data.lookups[id] ?? [];
 export const lookupsAsOf = data.lookupsAsOf;
 export const getChanges = () => data.changes;
-export const getChangeRegister = (): ChangeRegisterRow[] => {
-  const rows = asArray(changeRegisterRaw as unknown, "changes");
-  const parsed = rows.map((row) => changeRegisterRowSchema.safeParse(row)).filter((result) => result.success).map((result) => result.data);
-  if (parsed.length > 0) return parsed;
-  return data.changes.map((change) => ({
-    test_id: change.test_id,
-    title: change.test_id,
-    instrument: "",
-    jurisdiction: "",
-    enacted: "",
-    effective: "",
-    status: "in_force" as const,
-    summary: change.notes,
-    addresses_affected: change.affected_address_ids.length,
-    review_needed: change.conflict_flag_address_ids.length,
-  }));
-};
 export const getSources = () => data.sources;
 export const getDataIssues = () => data.issues;
 export function getSourceByUrl(url: string | null | undefined): Source | undefined {
@@ -280,12 +249,3 @@ export function getRulesCitingSource(s: Source): Rule[] {
   return data.rules.filter((r) => (n && normalizeUrl(r.source_url) === n) || (r.source_doc_id && r.source_doc_id === s.source_id));
 }
 
-export function getEvidenceBasis(sourceId: string | null | undefined): string | null {
-  if (!sourceId) return null;
-  const source = asArray(sourcesRaw as unknown, "sources").find((row) =>
-    Boolean(row && typeof row === "object" && (row as Record<string, unknown>)["source_id"] === sourceId),
-  );
-  if (!source || typeof source !== "object") return null;
-  const basis = (source as Record<string, unknown>)["evidence_basis"];
-  return typeof basis === "string" ? basis : null;
-}
